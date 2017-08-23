@@ -7,15 +7,12 @@
   <title>Price</title>
 </head>
 <body>
-  <header class="main-header">
-    <div class="container">
-      <div class="page-logo">
-        <a href="index.html"><img src="img/page-logo.jpg" width="160" height="72" alt="Barbershop"></a>
-      </div>
-      <nav class="main-navigation">
+  <header class="page-header">
+    <div class="container clearfix">
+      <nav class="page-navigation">
         <ul>
-          <li>
-            <a href="index.html">Главная</a>
+          <li class="page-logo">
+            <a href="index.html"><img src="img/page-logo.png" width="111" height="24" alt="Barbershop"></a>
           </li>
           <li>
             <a href="#">Информация</a>
@@ -24,10 +21,10 @@
             <a href="#">Новости</a>
           </li>
           <li>
-            <a href="#">Прайс-лист</a>
+            <a href="price.html">Прайс-лист</a>
           </li>
           <li>
-            <a href="#">Магазин</a>
+            <a href="shop.html">Магазин</a>
           </li>
           <li>
             <a href="#">Контакты</a>
@@ -39,66 +36,75 @@
       </div>
     </div>
   </header>
-  <main class="price-container">
-    <h1 class="price-list-header">
+  <main class="container">
+    <div class="page-content-head">
+      <h2 class="index-content-title">
       Прайс-лист
-    </h1>
-    <div class="active-page">
-      <a href="index.html">Главная</a>
-      <a href="price.html">Прайс-лист</a>
+    </h2>
+      <div class="breadcrumbs-navigation">
+        <a href="index.html">Главная</a>
+        <a href="price.html">Прайс-лист</a>
+      </div>
+    </div>
+    <div class="price-list-header">
+      <b>Истинно мужская классика</b>
     </div>
     <section class="price-list-content">
-      <div class="price-list-tools">
-       <h2 class="price-list-title">
-         Мы используем только лучшие средства:
-       </h2>
-        <ul class="list-care">
-          <li>Baxter of California</li>
-          <li>Mr Natty</li>
-          <li>Suavecito</li>
-          <li>Malin+Goetz</li>
-        </ul>
+      <div class="price-content-left">
+        <div class="price-list-tools">
+         <h3 class="inner-page-title">
+           Мы используем только лучшие средства:
+         </h3>
+          <ul class="list-care">
+            <li>Baxter of California</li>
+            <li>Mr Natty</li>
+            <li>Suavecito</li>
+            <li>Malin+Goetz</li>
+          </ul>
+        </div>
+        <div class="price-list-about">
+          <h3 class="inner-page-title">
+            Несколько слов о нас:
+          </h3>
+          <p>
+            Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка
+            каждого клиента для нас - это уникальная продумання до мелочей работа, мы
+            неработаем на количество мы делаем качество.
+          </p>
+        </div>
       </div>
-      <div class="price-list-price">
-        <h2 class="price-list-title">
-          Цены на услуги наших мастеров:
-        </h2>
-        <table>
-          <tr>
-            <td>Стрижка</td>
-            <td>1500 грн.</td>
-          </tr>
-          <tr>
-            <td>Стрижка бороды</td>
-            <td>500 грн.</td>
-          </tr>
-          <tr>
-            <td>Накрутка усов</td>
-            <td>350 грн.</td>
-          </tr>
-        </table>
-      </div>
-      <div class="price-list-about">
-        <h2 class="price-list-title">
-          Несколько слов о нас:
-        </h2>
-        <p>
-          Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого
-          клиента для нас - это уникальная продумання до мелочей работа, мы не работаем на
-          количество мы делаем качество.
-        </p>
-      </div>
-      <div class="price-list-features">
+      <div class="price-content-right">
+        <div class="price-list-price">
+          <h3 class="inner-page-title">
+            Цены на услуги наших мастеров:
+          </h3>
+          <table>
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 грн.</td>
+            </tr>
+            <tr>
+              <td>Стрижка бороды</td>
+              <td>500 грн.</td>
+            </tr>
+            <tr>
+              <td>Накрутка усов</td>
+              <td>350 грн.</td>
+            </tr>
+          </table>
+        </div>
+        <div class="price-list-features">
          <p>
           Наша мастерская имеет удобное расположение, поэтому сделать стильную стрижку
           можено в любое время, даже в обеденный перерыв, здесь вы можете погрузиться в
           удобную для вас атмосферу, чувствовать себя комфортно и свободно!
          </p>
+        </div>
       </div>
     </section>
   </main>
   <footer class="main-footer">
-    <div class="container">
+    <div class="container clearfix">
       <div class="footer-contacts">
         Барбершоп "Бориспольский"<br/>
         адрес: г.Киев, Бориспольское шоссе, 35/14<br/>
