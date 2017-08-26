@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <title>Shop</title>
 </head>
-<body>
+<body class="inner-page">
   <header class="main-header">
     <div class="container clearfix">
       <nav class="main-navigation">
@@ -24,7 +24,7 @@
           <li>
             <a href="price.html">Прайс-лист</a>
           </li>
-          <li>
+          <li class="active">
             <a href="shop.html">Магазин</a>
           </li>
           <li>
@@ -38,130 +38,141 @@
     </div>
   </header>
   <main class="container">
-    <div class="page-content-head">
-      <h2 class="index-content-title">
-        Средства для ухода
+    <div class="inner-page-head">
+      <h2>
+      Средства для ухода
       </h2>
-      <div class="breadcrumbs">
-        <a href="index.html">Главная</a>
-        <a href="shop.html">Магазин</a>
-        <a href="shop.html">Средства для ухода</a>
-      </div>
+      <ul class="breadcrumbs">
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="shop.html" >Магазин</a>
+        </li>
+        <li class="current"><span>Средства для ухода</span>
+        </li>
+      </ul>
     </div>
-    <section class="shop-container clearfix">
-      <div class="shop-form">
-          <form action="#">
+    <section class="inner-colums clearfix">
+      <div class="inner-colums-left--shop-form">
+          <form action="#" class="">
             <fieldset class="manufacturers">
-              <legend>Производитель</legend>
-              <label >
-                <input type="checkbox" name="manufacturers" checked> Baxter of California
-              </label><br/>
-              <label >
-                <input type="checkbox" name="manufacturers"> Mr Natty
-              </label><br/>
-              <label >
-                <input type="checkbox" name="manufacturers" checked> Suavecito
-              </label><br/>
-              <label >
-                <input type="checkbox" name="manufacturers"> Malin-Goetz
-              </label><br/>
-              <label >
-                <input type="checkbox" name="manufacturers"> Murray's
-              </label><br/>
-              <label >
-                <input type="checkbox" name="manufacturers" checked> American Crew
-              </label><br/>
+              <legend>
+                <h3>Производители:</h3>
+              </legend>
+              <label class="shop-checkbox">
+                <input type="checkbox" name="manufacturers" checked> <span class="checkbox-indicator"></span> Baxter of California
+              </label>
+              <label class="shop-checkbox">
+                <input type="checkbox" name="manufacturers"> <span class="checkbox-indicator"></span> Mr Natty
+              </label>
+              <label class="shop-checkbox">
+                <input type="checkbox" name="manufacturers" checked> <span class="checkbox-indicator"></span> Suavecito
+              </label>
+              <label class="shop-checkbox">
+                <input type="checkbox" name="manufacturers"> <span class="checkbox-indicator"></span> Malin-Goetz
+              </label>
+              <label class="shop-checkbox">
+                <input type="checkbox" name="manufacturers"> <span class="checkbox-indicator"></span> Murray's
+              </label>
+              <label class="shop-checkbox">
+                <input type="checkbox" name="manufacturers" checked> <span class="checkbox-indicator"></span> American Crew
+              </label>
             </fieldset>
             <fieldset class="product-groups">
-              <legend>Группы товаров:</legend>
-              <label>
-                <input type="radio" name="product-groups" value="shaving accessories">
-                Бритвенные принадлежности
-              </label><br/>
-              <label>
-                <input type="radio" name="product-groups" value="care products">
-                Средства для ухода
-              </label><br/>
-              <label>
-                <input type="radio" name="product-groups" value="accessories">
-                Аксессуары
-              </label><br/>
-              <input type="button" value="Показать">
+              <legend>
+                <h3>Группы товаров:</h3>
+              </legend>
+              <input class="shop-radiobutton" type="radio" name="product-groups" value="shaving accessories" id="radio-1">
+              <label for="radio-1">
+              Бритвенные принадлежности
+              </label>
+              <input class="shop-radiobutton" type="radio" name="product-groups" value="care products" id="radio-2">
+              <label for="radio-2">
+              Средства для ухода
+              </label>
+              <input class="shop-radiobutton" type="radio" name="product-groups" value="accessories" id="radio-3">
+              <label for="radio-3">
+              Аксессуары
+              </label>
             </fieldset>
+            <input class="btn" type="button" value="Показать">
           </form>
       </div>
-      <div class="shop-catalog">
+      <div class="inner-colums-right--shop-catalog">
         <div class="shop-item">
-          <img src="" alt="">
-          <a class="shop-item-link" href="#">
-            <span class="category">Набор для путешествий</span>
+          <img src="img/shop-item-1.jpg" width="220" height="165" alt="Набор для путешествий">
+          <a class="shop-item-link" href="shop-item.html">
+            <span class="shop-category">Набор для путешествий</span><br/>
             <span class="product-name">"Baxter of California"</span>
           </a>
           <div class="item-order">
-            <span class="unit-price"></span>
-            <a class="btn-buy" href="">Купить</a>
+            <span class="unit-price">1200 uah</span>
+            <a class="btn" href="shop-item.html">Купить</a>
           </div>
         </div>
         <div class="shop-item">
-          <img src="" alt="">
+          <img src="img/shop-item-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер">
           <a class="shop-item-link" href="#">
-            <span class="category">Увлажняющий кондиционер</span>
+            <span class="shop-category">Увлажняющий кондиционер</span><br/>
             <span class="product-name">"Baxter of California"</span>
           </a>
           <div class="item-order">
-            <span class="unit-price"></span>
-            <a class="btn-buy" href="">Купить</a>
+            <span class="unit-price">560 uah</span>
+            <a class="btn" href="">Купить</a>
           </div>
         </div>
         <div class="shop-item">
-          <img src="" alt="">
+          <img src="img/shop-item-3.jpg" width="220" height="165" alt="Гель для волос">
           <a class="shop-item-link" href="#">
-            <span class="category">Гель для волос</span>
+            <span class="shop-category">Гель для волос</span><br/>
             <span class="product-name">"Suavecito"</span>
           </a>
           <div class="item-order">
-            <span class="unit-price"></span>
-            <a class="btn-buy" href="">Купить</a>
+            <span class="unit-price">450 uah</span>
+            <a class="btn" href="">Купить</a>
           </div>
         </div>
+      </div>
+      <div class="inner-colums-right--shop-catalog">
         <div class="shop-item">
-          <img src="" alt="">
+          <img src="img/shop-item-4.jpg" width="220" height="165" alt="Глина для укладки волос">
           <a class="shop-item-link" href="#">
-            <span class="category">Глина для укладки волос</span>
+            <span class="shop-category">Глина для укладки волос</span><br/>
             <span class="product-name">"American Crew"</span>
           </a>
           <div class="item-order">
-            <span class="unit-price"></span>
-            <a class="btn-buy" href="">Купить</a>
+            <span class="unit-price">280 uah</span>
+            <a class="btn" href="">Купить</a>
           </div>
         </div>
         <div class="shop-item">
-          <img src="" alt="">
+          <img src="img/shop-item-5.jpg" width="220" height="165" alt="Гель для волос">
           <a class="shop-item-link" href="#">
-            <span class="category">Гель для волос</span>
+            <span class="shop-category">Гель для волос</span><br/>
             <span class="product-name">"American Crew"</span>
           </a>
           <div class="item-order">
-            <span class="unit-price"></span>
-            <a class="btn-buy" href="">Купить</a>
+            <span class="unit-price">250 uah</span>
+            <a class="btn" href="">Купить</a>
           </div>
         </div>
         <div class="shop-item">
-          <img src="" alt="">
+          <img src="img/shop-item-6.jpg" width="220" height="165" alt="Набор для бритья">
           <a class="shop-item-link" href="#">
-            <span class="category">Набор для бритья</span>
+            <span class="shop-category">Набор для бритья</span><br/>
             <span class="product-name">"Baxter of California"</span>
           </a>
           <div class="item-order">
-            <span class="unit-price"></span>
-            <a class="btn-buy" href="">Купить</a>
+            <span class="unit-price">770 uah</span>
+            <a class="btn" href="">Купить</a>
           </div>
         </div>
-        <div class="page-select">
-          <a href="#" class="btn-page">1</a>
-          <a href="#" class="btn-page">2</a>
-          <a href="#" class="btn-page">3</a>
-          <a href="#" class="btn-page">4</a>
+        <div class="pagination">
+          <a href="#">1</a>
+          <a href="#" class="active">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
         </div>
       </div>
     </section>
@@ -181,10 +192,10 @@
         <a href="#" class="social-btn social-btn-inst">Инстаграмм</a>
       </div>
       <div class="footer-copyright">
-    
+        <p>Разработано:</p>
+        <a href="#" class="copyright-btn">YEVGEN D &copy;</a>
       </div>
     </div>
-
   </footer>
 
 </body>

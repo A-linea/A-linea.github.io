@@ -7,10 +7,10 @@
   <meta charset="UTF-8">
   <title>Shop-item</title>
 </head>
-<body>
-  <header class="page-header">
+<body class="inner-page">
+  <header class="main-header">
     <div class="container clearfix">
-      <nav class="page-navigation">
+      <nav class="main-navigation">
         <ul>
           <li class="page-logo">
             <a href="index.html"><img src="img/page-logo.png" width="111" height="24" alt="Barbershop"></a>
@@ -24,8 +24,8 @@
           <li>
             <a href="price.html">Прайс-лист</a>
           </li>
-          <li>
-            <a href="#">Магазин</a>
+          <li class="active">
+            <a href="shop.html">Магазин</a>
           </li>
           <li>
             <a href="#">Контакты</a>
@@ -38,55 +38,71 @@
     </div>
   </header>
   <main class="container">
-    <div class="page-content-head">
-      <h2 class="index-content-title">
+    <div class="inner-page-head">
+      <h2>
         Набор для путешествий "Baxter of California"
       </h2>
       <div class="breadcrumbs">
-        <a href="index.html">Главная</a>
-        <a href="price.html">Прайс-лист</a>
-        <a href="shop.html">Магазин</a>
+        <ul>
+          <li>
+            <a href="index.html">Главная</a>
+          </li>
+          <li>
+            <a href="shop.html">Магазин</a>
+          </li>
+          <li class="current"><span>Набор для путешествий «Baxter of California»</span>
+          </li>
+        </ul>
+        
+       
     </div>
     </div>
-    <section class="shop-item-container">
-      <div class="item-img">
-       <div class="item-img-main">
-         <img src="" alt="">
-       </div>
-       <div class="item-img-gallery">
-         <img src="" alt="">
-         <img src="" alt="">
-         <img src="" alt="">
-       </div>
-      </div>
-      <div class="item-content">
-        <div class="item-code">
-          <span>Есть в наличии</span>
-          <span class="item-vendor-code">Артикул Dexter-AE</span>
+    <section class="inner-content">
+     <div class="inner-colums clearfix">
+       <div class="inner-colums-left--shop-item">
+         <div class="item-img-main">
+           <img src="img/image-item-main.jpg" alt="travel-kit" width="460" height="500">
+         </div>
+         <div class="item-img-gallery">
+           <div class="item-img-photo">
+             <img src="img/image-item-1.jpg" alt="photo-1">
+          </div>
+           <div class="item-img-photo">
+             <img src="img/image-item-2.jpg" alt="photo-2">
+           </div>
+           <div class="item-img-photo">
+             <img class="item-img" src="img/image-item-3.jpg" alt="photo-3">
+           </div>
+         </div>
         </div>
-        <p class="item-description">
+        <div class="inner-colums-right--shop-item">
+          <div class="item-code">
+            <span>Есть в наличии</span>
+            <span class="vendor-code">Артикул Dexter-AE</span>
+          </div>
+          <p class="item-description">
           Travel kit - необходимый аксессуар во время любого путешествия. В
-          аккуратнойкожанной сумке находится все, что нужно для бритья и ухода за
+          аккуратной кожанной сумке находится все, что нужно для бритья и ухода за
           кожей во время рабочей поездки или отдыха: средство для умывания,
           увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также
           может стать отличным подарком.
-        </p>
-        <div class="item-order">
-          <span class="unit-price"></span>
-          <a class="btn">купить</a>
-        </div>
-        <div class="item-components">
-          <h3 class="inner-page-title">В набор входят:</h3>
-          <ul>
-            <li>Средство для умывания (50мл)</li>
-            <li>Увлажняющий крем (50мл)</li>
-            <li>Крем для бритья (50мл)</li>
-            <li>Крем после бритья, шампунь (50мл)</li>
-            <li>удобная кожанная косметичка</li>
-          </ul>
+          </p>
+          <div class="item-order__buy">
+            <span class="unit-price">1200 uah</span>
+            <a class="btn">купить</a>
+          </div>
+          <div class="item-components">
+            <h3>В набор входят:</h3>
+            <ul class="custom-list-1">
+              <li>Средство для умывания (50мл)</li>
+              <li>Увлажняющий крем (50мл)</li>
+              <li>Крем для бритья (50мл)</li>
+              <li>Крем после бритья, шампунь (50мл)</li>
+              <li>удобная кожанная косметичка</li>
+            </ul>
+          </div>
         </div>
       </div>
-      
     </section>
   </main>
   <footer class="main-footer">
@@ -104,10 +120,10 @@
         <a href="#" class="social-btn social-btn-inst">Инстаграмм</a>
       </div>
       <div class="footer-copyright">
-    
+        <p>Разработано:</p>
+        <a href="#" class="copyright-btn">YEVGEN D &copy;</a>
       </div>
     </div>
-
   </footer>
 
 </body>
