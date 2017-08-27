@@ -1,4 +1,4 @@
-link = document.querySelector(".login");
+var link = document.querySelector(".login");
 var popup = document.querySelector(".modal-content");
 var mapOpen = document.querySelector(".js-open-map");
 var mapPopup = document.querySelector(".modal-content-map");
