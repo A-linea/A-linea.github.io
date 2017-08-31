@@ -172,19 +172,382 @@ img  {
   width: 1200px;
   height: 476px;
 }
-.main-footer .container {
-  width: 1054px;
-  padding: 36px 113px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+/* inner page*/
+.form-wrapper  {
+  width: 1200px;
+  background: #7b9fc2 url("../img/muntain-bg.jpg");
+}
+.order-form  {
   display: flex;
-  text-align: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
+}
+.order-form h3  {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.order-form fieldset  {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.order-form label  {
+  display: block;
+}
+.order-form .infrastructure  {
+  margin-left: 73px;
+  width: 238px;
+}
+.order-form .house-type  {
+  width: 260px;
+}
+.order-form .checkbox  {
+  display: none;
+}
+.checkbox + label  {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 27px;
+  padding-left: 35px;
+  position: relative;
+}
+.checkbox + label::before  {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: -4px;
+  background: url("../img/ico-default.png") center no-repeat;
+  background-position: 1px 0;
+  opacity: 1;
+}
+.checkbox:checked + label::before  {
+  opacity: 0;
+}
+.checkbox + label::after  {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: -4px;
+  background: url("../img/ico-checked.png") center no-repeat;
+  background-position: 1px 0;
+  opacity: 0;
+}
+.checkbox:checked + label::after {
+  opacity: 1;
+}
+.order-form .price-range  {
+  width: 330px;
+  margin-left: auto;
+  padding-right: 71px;
+}
+.price-range h3  {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 21px;
+  font-weight: 700;
+}
+.price-controls  {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  height: 36px;
+  font-size:0;
+  position: relative;
+}
+.price-controls::after  {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 22px;
+  background: #fff;
+}
+.price-controls label  {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 32px;
+  width: 65px;
+  padding-left: 65px;
+  cursor: pointer;
+}
+.price-controls input  {
+  width: 40px;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.range-controls  {
+  position: relative;
+  margin-bottom: 32px;
+}
+.range-controls .scale  {
+  height: 2px;
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.range-controls .bar  {
+  height: 2px;
+  width: 80%;
+  background: #fff;
+}
+.range-toggle  {
+  position: absolute;
+  top: -9px;
+  left: -2px;
+  width:4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2 );
+}
+.range-toggle:hover  {
+  background: #1c4f80;
+}
+.range-toggle-min  {
+  left: -2px;
+}
+.range-toggle-max  {
+  left: 77%;
+}
+
+.btn.show-transparent  {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+  background: transparent;
+  font-size: 14px;
+  line-height: 21px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+}
+.page-sort  {
+  padding-left: 73px;
+  display: flex;
   justify-content: space-between;
+}
+.page-sort b  {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  width: 135px;
+  padding: 32px 0;
+  
+}
+.page-sort ul  {
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+  font-size: 0;
+}
+.page-sort li  {
+  width: 115px;
+  padding: 34px 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  list-style: none;
+}
+.page-sort a  {
+  text-decoration: none;
+  color: #cacaca;
+  border-bottom: 2px dotted #7b9fc2;
+}
+.page-sort a:hover  {
+  color: #7b9fc2 ;
+}
+.page-sort a:focus  {
+  color: #000;
+  border-bottom: none;
+}
+.triangle  {
+  margin-left: 395px;
+  margin-right: 73px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+.triangle .triangle-up,
+.triangle .triangle-down  {
+  margin: 39px 5px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size:0;
+}
+.triangle .triangle-up  {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid #cacaca;
+}
+.triangle .triangle-down  {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid #cacaca;
+  border-bottom: none;
+}
+.triangle .triangle-up:hover  {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid #7b9fc2;
+}
+.triangle .triangle-down:hover  {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid #7b9fc2;
+}
+.triangle .triangle-up:focus  {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid #000;
+}
+.triangle .triangle-down:focus  {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid #000;
+}
+.inner-content  {
+  position: relative;
+}
+.housing  {
+  display: flex;
+}
+.housing::before  {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #e5e5e5;
+}
+.housing::after  {
+  content: "";
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  height: 2px;
+  background: #e5e5e5;
+}
+.housing img  {
+  margin: 30px 0 30px 73px;
+  background: #cacaca;
+}
+.housing h2  {
+  margin: 0;
+  margin-top: 27px;
+  margin-bottom: 14px;
+  padding:0 ;
+}
+.column-left  {
+  margin-left: 15px;
+}
+.column-left span {
+  display: inline-block;
+  width: 100px;
+}
+.column-left .leveling  {
+  margin-left: 19px;
+}
+.btn.details  {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  padding: 3px 0;
+  width: 110px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;  ;
+  text-decoration: none;
+  background: #7b9fc2;
+}
+.btn.details:hover  {
+  background: #669ec0;
+}
+.btn.details:active  {
+  opacity: 0.5;
+}
+
+.btn.booking  {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 8px;
+  padding: 3px 0;
+  width: 142px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;  ;
+  text-decoration: none;
+  background: #766357;
+}
+.btn.booking:hover  {
+  background: #604e43;
+}
+.btn.booking:active  {
+  opacity: 0.5;
+}
+.column-right  {
+  margin-left: auto;
+  margin-right: 73px;
+  margin-top: 93px;
+  position: relative;
+}
+.column-right span  {
+  width: 110px;
+  padding: 3px 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  color: #939393;
+  background: #f2f2f2;
+}
+.rating-hotel::before  {
+  position: absolute;
+  top: -66px;
+  left: -8px;
+  content: "";
+  width: 90px;
+  height: 20px;
+  background: url("../img/four-stars.png") center no-repeat;
+}
+.rating-motel::before  {
+  position: absolute;
+  top: -66px;
+  left: 6px;
+  content: "";
+  width: 90px;
+  height: 20px;
+  background: url("../img/three-stars.png") center no-repeat;
+}
+.rating-apartments::before  {
+  position: absolute;
+  top: -60px;
+  left: 19px;
+  content: "";
+  width: 90px;
+  height: 20px;
+  background: url("../img/two-stars.png") center no-repeat;
+}
+footer .container {
+width: 1054px;
+padding: 36px 113px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+text-align: center;
 }
 .footer-contacts  {
   width: 328px;
+  margin-left: 62px;
   padding: 11px 0;
 }
 .footer-contacts span  {
@@ -194,6 +557,7 @@ img  {
 }
 .footer-social {
   width: 400px;
+  margin-left: 100px;
 }
 .social-btn  {
   font-size:0;
@@ -258,6 +622,7 @@ img  {
 }
 .footer-copyright  {
   width: 328px;
+  margin-left: 150px;
   display: inline-block;
   vertical-align: top;
   font-weight: 700;
@@ -266,6 +631,7 @@ img  {
 }
 .footer-copyright span  {
   display: inline-block;
+  vertical-align: top;
   font-weight: 400;
   padding: 11px 0;
 }
@@ -294,7 +660,6 @@ img  {
   -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   display: none;
-  z-index: 20;
 }
 .form-calendar span  {
   width: 100px;
@@ -441,45 +806,3 @@ img  {
   text-align: center;
   display: block;
 }
-.sprite {
-  background-image: url("../img/spritesheet.png");
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.sprite-ico-date-1 {
-  width: 21px;
-  height: 22px;
-  background-position: -8px -8px;
-}
-
-.sprite-ico-date-2 {
-  width: 21px;
-  height: 22px;
-  background-position: -8px -46px;
-}
-
-.sprite-ico-date-3 {
-  width: 21px;
-  height: 22px;
-  background-position: -8px -84px;
-}
-
-.sprite-ico-fb {
-  width: 10px;
-  height: 19px;
-  background-position: -8px -122px;
-}
-
-.sprite-ico-tube {
-  width: 20px;
-  height: 16px;
-  background-position: -8px -157px;
-}
-
-.sprite-ico-tw {
-  width: 17px;
-  height: 15px;
-  background-position: -8px -189px;
-}
-
