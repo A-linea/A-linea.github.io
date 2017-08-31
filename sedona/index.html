@@ -123,7 +123,7 @@
       <div class="location-content">
        <b>Заинтересовались?</b>
        <p>Укажите дату предпологаемой поездки,  мы покажем вам лучшее предложение гостиниц в Седоне</p>
-       <button class="search-btn">Поиск гостиницы в Седоне</button>
+       <button class="btn find-hotel">Поиск гостиницы в Седоне</button>
       </div>
       <div class="location-map">
         <img src="img/map.jpg" alt="map" width="1200" height="476">
@@ -147,16 +147,42 @@
     </div>
   </footer>
   <div class="search-form">
-  1
+    
+    <form action="#" method="post" class="form-calendar">
+      <label>
+        <span>Дата заезда:</span>
+        <input type="text" name="Дата заезда" class="ico-date" placeholder="Введите желаемую дату заезда">
+      </label>
+      <label>
+        <span>Дата выезда:</span>
+        <input type="text" name="Дата выезда" class="ico-date" placeholder="Введите желаемую дату выезда">
+      </label>
+      <div class="number-wrapper">
+        <label class="number" for="adult">
+          <span>Взрослые:</span>
+          <button type="button" class="decr"></button>
+          <input class="adult" type="text" name="adult" value="0" id="adult">
+          <button type="button" class="incr"></button>
+        </label>
+        <label class="number" for="children">
+          <span class="short">Дети:</span>
+          <button type="button" class="decr"></button>
+          <input class="adult" type="text" name="children" value="0"
+          id="children">
+          <button type="button" class="incr"></button>
+      </label>
+      </div>
+      <a href="hotels.html" class="btn search">найти</a>
+    </form>
+    
   </div>
   <div class="modal-content-map">
   </div>
   <div class="modal-overlay">
   </div>
-<script type="text/javascript" src="js/script.js">
-
-
-</script>
+  <!--<script type="text/javascript" src="js/script.js"></script>-->
+  
+  
 </body>
 
 </html>

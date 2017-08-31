@@ -112,10 +112,7 @@ img  {
 }
 .features-item  {
   max-width: 320px;
-  padding-top: 53px;
-  padding-right: 35px;
-  padding-left: 45px;
-  padding-bottom: 33px;
+  padding: 53px 35px 33px 45px;
   line-height: 21px;
   text-align: center;
 }
@@ -140,22 +137,22 @@ img  {
   padding: 0 15px;
   width: 370px;
 }
-.search-btn  {
-  width: 568px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
-  margin-bottom: 0;
-  padding: 30px 0;
+.btn  {
   font-size: 21px;
   line-height: 26px;
   font-weight:700;
   font-family: inherit;
   text-transform: inherit;
   color: #fff;
-  background: #766357;
   border: none;
+  outline: none;
   cursor: pointer;
+}
+.btn.find-hotel  {
+  width: 568px;
+  margin: 75px auto 0;
+  padding: 30px 0;
+  background: #766357;
 }
 .location-content  {
   padding-top: 56px;
@@ -214,8 +211,7 @@ img  {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../img/spritesheet.png");
-  background-repeat: no-repeat;
+  background: url("../img/spritesheet.png") no-repeat;
 }
 .social-btn-tw::before  {
    width: 17px;
@@ -250,23 +246,15 @@ img  {
   background-position: -8px -157px;
   opacity: 0.3;
 }
+.social-btn-fb:hover,
+.social-btn-tube:hover,
 .social-btn-tw:hover  {
   background:#669ec0 ;
 }
-.social-btn-fb:hover  {
-  background:#669ec0 ;
-}
-.social-btn-tube:hover  {
-  background:#669ec0;
-}
+.social-btn-fb:active,
+.social-btn-tube:active,
 .social-btn-tw:active  {
   background:#5496bd ;
-}
-.social-btn-fb:active  {
-  background:#5496bd ;
-}
-.social-btn-tube:active  {
-  background:#5496bd;
 }
 .footer-copyright  {
   width: 328px;
@@ -296,7 +284,7 @@ img  {
 }
 .search-form  {
   position: absolute;
-  top: 2320px;
+  top: 2452px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 458px;
@@ -305,8 +293,153 @@ img  {
   background: #fff;
   -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-  display: block;
+  display: none;
   z-index: 20;
+}
+.form-calendar span  {
+  width: 100px;
+  margin-right: 20px;
+  /*padding: 7px 0;*/
+  display: inline-block;
+  vertical-align: center;
+  font-family: inherit;
+  line-height: 24px;
+  font-weight: 700;
+}
+.form-calendar input[type=text]  {
+  width: 279px;
+  margin-top: 15px;
+  padding: 10px 45px 10px 10px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: inherit;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+}
+.form-calendar .ico-date  {
+  background: url("../img/spritesheet.png") no-repeat 100% 3px;
+  cursor: pointer;
+}
+.form-calendar .ico-date:hover  {
+  background-image: url("../img/spritesheet.png");
+  background-position: 100% -35px;
+  background-repeat: no-repeat;
+}
+.form-calendar .ico-date:focus  {
+  background: url("../img/spritesheet.png") no-repeat 100% -73px;
+}
+.number-wrapper  {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.number  {
+  font-size: 0;
+ }
+.number span  {
+  width: 100px;
+  margin-right: 23px;
+  padding: 7px 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 24px;
+  font-weight: 700;
+  }
+.number .short  {
+  width: 60px;
+  margin-right: 0;
+}
+
+.number input[type=text]  {
+  width: 38px;
+  /*height: 38px;*/
+  padding: 7px 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  vertical-align: top;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+}
+.incr,
+.decr  {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 38px;
+  height: 38px;
+  /*margin-top: 10px;*/
+  padding: 7px 0;
+  font-size: 14px;
+  line-height:24px;
+  background-color: #f2f2f2;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.decr  {
+  background-image: url("../img/sprite_symbols.png");
+  background-position: 1px -29px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.incr  {
+  background-image: url("../img/sprite_symbols.png");
+  background-position: 1px 2px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.decr:hover  {
+  background-image: url("../img/sprite_symbols.png");
+  background-position: 1px -153px;
+  background-repeat: no-repeat;
+  background-color: #ebebeb;
+}
+.incr:hover  {
+  background-image: url("../img/sprite_symbols.png");
+  background-position: 1px -122px;
+  background-repeat: no-repeat;
+  background-color: #ebebeb;
+}
+.decr:focus  {
+  background-image: url("../img/sprite_symbols.png");
+  background-position: 0px -93px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border: 2px solid #ebebeb;
+}
+.incr:focus  {
+  background-image: url("../img/sprite_symbols.png");
+  background-position: 0px -62px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border: 2px solid #ebebeb;
+}
+
+.btn.search  {
+  width: 458px;
+  text-decoration: none;
+  background: #81b3d2;
+  padding: 17px 0;
+  margin-top: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
 }
 .sprite {
   background-image: url("../img/spritesheet.png");
