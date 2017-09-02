@@ -1,3 +1,4 @@
+
 body  {
   width: 1280px;
   margin: 0 auto;
@@ -125,6 +126,8 @@ img  {
   color: #000;
 }
 .conditions  {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 60px 0;
 }
@@ -154,6 +157,9 @@ img  {
   padding: 30px 0;
   background: #766357;
 }
+.btn.find-hotel:hover  {
+  background: #604e43;
+}
 .location-content  {
   padding-top: 56px;
   padding-left: 315px;
@@ -178,14 +184,22 @@ img  {
   background: #7b9fc2 url("../img/muntain-bg.jpg");
 }
 .order-form  {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .order-form h3  {
-  margin-top: 20px;
+  margin: 0;
   margin-bottom: 10px;
+}
+.order-form legend  {
+  display: inline-block;
+  vertical-align: top;
+  height: 31px;
 }
 .order-form fieldset  {
   margin: 0;
+  margin-top: 20px;
   padding: 0;
   color: #fff;
   border: none;
@@ -206,7 +220,7 @@ img  {
 }
 .checkbox + label  {
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 19px;
   margin-bottom: 27px;
   padding-left: 35px;
   position: relative;
@@ -262,6 +276,8 @@ img  {
   position: absolute;
   top: 50%;
   left: 49%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 2px;
   height: 22px;
@@ -309,6 +325,7 @@ img  {
   border: 8px solid #fff;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2 );
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2 );
 }
 .range-toggle:hover  {
@@ -333,7 +350,11 @@ img  {
 }
 .page-sort  {
   padding-left: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .page-sort b  {
@@ -420,6 +441,8 @@ img  {
   position: relative;
 }
 .housing  {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .housing::before  {
@@ -538,12 +561,12 @@ img  {
   background: url("../img/two-stars.png") center no-repeat;
 }
 footer .container {
-width: 1054px;
-padding: 36px 113px;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
-text-align: center;
+  width: 1054px;
+  padding: 36px 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }
 .footer-contacts  {
   width: 328px;
@@ -574,14 +597,16 @@ text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: url("../img/spritesheet.png") no-repeat;
 }
 .social-btn-tw::before  {
-   width: 17px;
-   height: 15px;
-   background-position: -8px -189px;
- }
+  width: 17px;
+  height: 15px;
+  background-position: -8px -189px;
+}
 .social-btn-fb::before  {
   width: 10px;
   height: 19px;
@@ -652,6 +677,8 @@ text-align: center;
   position: absolute;
   top: 2452px;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 458px;
   padding: 50px 55px;
@@ -660,11 +687,15 @@ text-align: center;
   -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   display: none;
+ 
 }
+.search-form-show  {
+  display: block;
+}
+
 .form-calendar span  {
   width: 100px;
   margin-right: 20px;
-  /*padding: 7px 0;*/
   display: inline-block;
   vertical-align: center;
   font-family: inherit;
@@ -698,13 +729,17 @@ text-align: center;
   background: url("../img/spritesheet.png") no-repeat 100% -73px;
 }
 .number-wrapper  {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 15px;
 }
 .number  {
   font-size: 0;
- }
+}
 .number span  {
   width: 100px;
   margin-right: 23px;
@@ -715,12 +750,11 @@ text-align: center;
   font-family: inherit;
   line-height: 24px;
   font-weight: 700;
-  }
+}
 .number .short  {
   width: 60px;
   margin-right: 0;
 }
-
 .number input[type=text]  {
   width: 38px;
   /*height: 38px;*/

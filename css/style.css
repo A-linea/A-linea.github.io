@@ -659,15 +659,11 @@ h3  {
   padding: 10px 17px;
   margin: 0;
 }
-
-
-
 /*Всплывающие формы*/
-.pagination  {
+.pagination {
   font-size: 14px;
   margin-left: 15px;
   margin-top: 50px;
-  
 }
 .pagination a  {
   min-width: 43px;
