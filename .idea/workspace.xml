@@ -4,14 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5e13b2-a4fe-48b4-803a-2a42a4173aa9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/js/script.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sedona/stylesheet.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="5a5e13b2-a4fe-48b4-803a-2a42a4173aa9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,12 +228,12 @@
       <workItem from="1504372422108" duration="57000" />
       <workItem from="1504373660970" duration="987000" />
       <workItem from="1504388850889" duration="35000" />
-      <workItem from="1504442711982" duration="107000" />
+      <workItem from="1504442711982" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4443000" />
+    <option name="totallyTimeSpent" value="4509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
