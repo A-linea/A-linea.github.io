@@ -1,16 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5e13b2-a4fe-48b4-803a-2a42a4173aa9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-back-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-back-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-back-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-back-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-back-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-back-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-map-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-map-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-map-mobile@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-map-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-map-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-map-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-hand-desktop@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-hand-desktop@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-hand-mobile@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-hand-mobile@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-hand-tablet@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-hand-tablet@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-1-desktop@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-1-desktop@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-1-tablet@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-1-tablet@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-2-desktop@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-2-desktop@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-2-tablet@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-2-tablet@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-3-desktop@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-3-desktop@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-3-tablet@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-3-tablet@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-mobile@1x-cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-mobile@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/iphone-screen-mobile@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/panorama-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/panorama-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/panorama-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/panorama-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/panorama-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/panorama-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-1-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-1-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-1-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-1-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-1-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-1-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-2-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-2-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-2-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-2-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-2-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-2-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-3-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-3-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-3-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-3-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-3-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-3-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-4-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-4-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-4-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-4-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-4-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-4-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-5-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-5-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-5-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-5-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-5-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-5-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-6-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-6-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-6-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-6-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-6-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-6-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-7-desktop@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-7-desktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-7-mobile@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-7-mobile@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-7-tablet@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/photo-7-tablet@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/tablet-grey-triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-hit-tablet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-hit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-triangle-white-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/bg-triangle-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/htmlacademy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-editor-contrast.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-editor-crop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-editor-diagram-fill.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-editor-fill.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-facebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-heart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-map-marker.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-menu-burger.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-menu-cross.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-quotes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-review-arrow-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-review-arrow-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-timer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-yes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/icon-youtube.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-android.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-apple.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-htmlacademy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-microsoft.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-pink-blue-desktop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-pink-blue-mobile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-pink-white-desktop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-pink-white-mobile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/img/logo-pink-white-tablet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/less/global/fonts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/less/global/global.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/less/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pink/package.json" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Industrial_site/PSD/psd-template industrial  1300×1830 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Industrial_site/PSD/psd-template industrial  1300×1830 .psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pink/fonts/README" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/github.iml" afterPath="$PROJECT_DIR$/.idea/github.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <ignored path="pink/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +180,28 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pink/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+                <state relative-caret-position="388">
+                  <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pink/form.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="759">
+                  <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="photo.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pink/photo.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="828">
+                  <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -70,11 +211,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sedona/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16330">
-                  <caret line="680" column="15" lean-forward="false" selection-start-line="680" selection-start-column="15" selection-end-line="680" selection-end-column="15" />
+                <state relative-caret-position="276">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="global.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pink/less/global/global.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="414">
+                  <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pink/less/variables.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -88,22 +249,39 @@
     <findStrings>
       <find>lege</find>
       <find>sear</find>
+      <find>main-page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yevhen Dmitrievskiy" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/sedona/css/style.css" />
         <option value="$PROJECT_DIR$/pink/index.html" />
+        <option value="$PROJECT_DIR$/pink/photo.html" />
+        <option value="$PROJECT_DIR$/pink/form.html" />
+        <option value="$PROJECT_DIR$/sedona/css/style.css" />
+        <option value="$PROJECT_DIR$/pink/less/variables.less" />
+        <option value="$PROJECT_DIR$/pink/less/global/global.less" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -130,17 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="github" type="cbb8eebc:String" user="github" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <expand>
@@ -156,6 +323,19 @@
             <path>
               <item name="github" type="b2602c69:ProjectViewProjectNode" />
               <item name="github" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pink" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pink" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="global" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sedona" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -163,6 +343,17 @@
               <item name="github" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sedona" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="github" type="cbb8eebc:String" user="github" />
             </path>
           </expand>
           <select />
@@ -200,8 +391,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,12 +426,14 @@
       <workItem from="1504372422108" duration="57000" />
       <workItem from="1504373660970" duration="987000" />
       <workItem from="1504388850889" duration="35000" />
-      <workItem from="1504442711982" duration="1402000" />
+      <workItem from="1504442711982" duration="2667000" />
+      <workItem from="1504528035616" duration="17686000" />
+      <workItem from="1504557411112" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5738000" />
+    <option name="totallyTimeSpent" value="25065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,13 +448,13 @@
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="268" y="76" width="307" height="913" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16198044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="268" y="76" width="307" height="913" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -279,10 +473,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15281174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="268" y="76" width="307" height="913" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1601467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="268" y="76" width="307" height="913" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -295,14 +489,139 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sedona/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sedona/hotels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sedona/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/less/global/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sedona/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sedona/hotels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sedona/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sedona/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -400,14 +719,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sedona/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/glacy/index.html" />
+    <entry file="file://$PROJECT_DIR$/glacy/css/style.css" />
     <entry file="file://$PROJECT_DIR$/sedona/hotels.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -416,32 +729,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glacy/index.html">
+    <entry file="file://$PROJECT_DIR$/sedona/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glacy/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pink/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="759">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Industrial_site/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/sedona/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pink/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pink/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="388">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sedona/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pink/less/global/global.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16330">
-          <caret line="680" column="15" lean-forward="false" selection-start-line="680" selection-start-column="15" selection-end-line="680" selection-end-column="15" />
+        <state relative-caret-position="414">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>
