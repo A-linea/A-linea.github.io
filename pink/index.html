@@ -1,13 +1,111 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <!--<meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pink</title>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pink</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="page-header">
+    <div class="page-header__logo">
+      <img src="" alt="page-logo">
+    </div>
+    <nav class="main-menu  main-menu--closed">
+      <button class="main-menu__toggle" type="button">Открыть меню</button>
+      <ul class="main-menu__list">
+        <li class="main-menu__item">
+          <a href = "#"></a>
+        </li>
+        <li class="main-menu__item  main-menu__item--active">
+          <a href="#">Главная</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#">Фотографии</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#">Конкурс</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-page">
+  <section class="downloads">
+    <button class="downloads__btn  button">Скачать приложение</button>
+    <img src="" alt="" class="download__device">
+    <img src="" alt="" class="download__device">
+    <img src="" alt=""class="download__device">
+    <p class="downloads__text">
+      Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+    </p>
+  </section>
+  <section class="promo">
+    <div class="promo__title">
+      <p class="promo__text">Устали от серости мегаполиса</p>
+      <p class="promo__text">Нам есть, что вам предложить!</p>
+    </div>
+    <div class="promo__features">
+      <div class="promo__features-list">
+        <div class="promo__item">
+          <h2>Поднимает настроение</h2>
+          <p>
+            Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+          </p>
+        </div>
+        <div class="promo__item">
+          <h2>Меняет мир вокруг</h2>
+          <p>
+            Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+          </p>
+        </div>
+        <div class="promo__item">
+          <h2>Заводит новых друзей</h2>
+          <p>
+            Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <img src="" alt="pink-hello" class="reviews__images">
+    <b class="reviews__name">Николай Петров</b>
+    <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+    <div class="switches">
+      <input type="radio" class="switches__input" name="toggle" value="toggle-1" id="toggle-1">
+      <input type="radio" class="switches__input" name="toggle" value="toggle-2" id="toggle-2">
+      <input type="radio" class="switches__input" name="toggle" value="toggle-3" id="toggle-3">
+      <label for="toggle-1" class="switches__item"></label>
+      <label for="toggle-2" class="switches__item"></label>
+      <label for="toggle-3" class="switches__item"></label>
+    </div>
+  </section>
+  <div class="order">
+  
+  </div>
+  <div class="contacts">
+  
+  </div>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__logo">
+      
+    </div>
+    <div class="page-footer__social">
+      <a class="page-footer__social-btn  social-btn--vk" href="#">VK</a>
+      <a class="page-footer__social-btn  social-btn--fb" href="#">Facebook</a>
+      <a class="page-footer__social-btn  social-btn--yutube" href="#">Youtube</a>
+    </div>
+    <div class="page-footer__copyright">
+      <img src="" alt="" class="page-footer__copyright-logo">
+      <p class="page-footer__copyright-text">Developed by</p>
+    </div>
+  </footer>
 
 </body>
 </html>
