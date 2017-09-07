@@ -557,7 +557,7 @@ h3  {
   -o-transition: all .2s;
   transition: all .2s;
 }
-.shop-radiobutton:checked + label:after {
+.shop-radiobutton:checked + label::after {
   opacity: 1;
 }
 .shop-radiobutton + label:hover {

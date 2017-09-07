@@ -1,5 +1,8 @@
+/**  {
+  box-sizing: border-box;
+}*/
 body {
-  width: 320px;
+  min-width: 320px;
   font-family: "Open Sans", "Arial", sans-serif ;
   font-size: 14px;
   font-weight: 400;
@@ -7,10 +10,11 @@ body {
   background: @grey;
   margin: 0 auto;
   @media @tablet-widths {
-    width: 660px;
+    min-width: 660px;
   }
   @media @desktop-widths {
-    width: 1200px;
+    min-width: 1200px;
+    max-width: 1440px;
   }
 }
 img  {

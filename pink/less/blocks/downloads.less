@@ -8,11 +8,11 @@
 
 .downloads__wrapper  {
   /*outline: 2px solid blueviolet;*/
-  min-width: 280px;
+  min-width: 260px;
   padding-top: 30px;
   margin: 0 0;
 }
-.downloads__wrapper--logo  {
+.downloads__wrapper-logo  {
   /*outline: 1px solid silver;*/
   margin: 0 7%;
   margin-top: 30px;
@@ -20,11 +20,14 @@
   display: flex;
   justify-content: space-around;
 }
+.downloads__title  {
+  display: none;
+}
 .download__device  {
   width: 55px;
   height: 60px;
 }
-.downloads__wrapper--text  {
+.downloads__wrapper-text  {
  /* outline: 1px solid silver;*/
   margin: 0 30px;
   margin-top: 30px;
@@ -50,5 +53,41 @@
     background-color: @white;
     color: @rose;
     transition: 0.5s;
+  }
+}
+@media @tablet-widths  {
+  .downloads  {
+    position: relative;
+    background-color: transparent;
+    outline: 2px solid red;
+  }
+  .downloads__title  {
+    display: block;
+    font-size:40px;
+    font-weight:100;
+    padding: 0 40px;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .downloads__wrapper  {
+    position: absolute;
+    top: -560px;
+    left: 20px;
+    outline: 2px solid blueviolet;
+    max-width: 320px;
+    padding-top: 30px;
+    margin: 0 0;
+  }
+  .downloads__btn  {
+    min-width: 300px;
+  }
+  .downloads__wrapper-logo  {
+    /*outline: 1px solid silver;*/
+    margin: 0 7%;
+    margin-top: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
   }
 }
