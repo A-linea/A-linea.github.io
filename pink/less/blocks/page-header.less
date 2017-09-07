@@ -1,18 +1,16 @@
 .page-header  {
-  height: 462px;
-  /*width: 320px;*/
+  height: 460px;
   background: @darkblue;
-  background-image: url("../../img/bg-back-mobile@1x.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
+  background-image: url("../../img/iphone-hand-mobile@1x.png"),
+  url("../../img/bg-back-mobile@1x.jpg");
+   background-position: 35% bottom, center center;
+   background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
 }
-/*.page-header--closed  {
-  background-color: rgba(29, 38, 49, 0.3);
-  z-index: 2;
-}*/
+
 @media @tablet-widths  {
   .page-header  {
-
+  height: 730px;
   }
 
 }
