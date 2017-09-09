@@ -1,0 +1,84 @@
+.order  {
+  outline: 1px solid teal;
+}
+
+
+
+@media @desktop-widths {
+
+  .order__table  {
+    min-width: 940px;
+    margin: 0 auto;
+  }
+  .order__table thead  {
+    color: @white;
+    background-color: @darkblue;
+    text-transform: uppercase;
+  }
+  .order__table tbody  {
+    color: @darkblue;
+    text-align: center;
+    font-size: 14px;
+  }
+  .order__table th  {
+    padding: 20px 20px;
+    border-right: 1px solid @grey;
+    &:first-of-type {
+      background-color: @grey;
+    }
+    &:nth-child(3)  {
+      position: relative;
+      &::before  {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30%;
+        height: 80%;
+        background-image: url("../../img/bg-hit.svg");
+        background-repeat: no-repeat;
+       }
+      &::after  {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        content: "хит";
+        font-size: 14px;
+        font-weight: 400;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  .order__table-title  {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 auto;
+  }
+  .order__table-price  {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 30px;
+  }
+  .order__table-data  {
+    background-color: #fff;
+    border: 2px solid @grey;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+
+
+  }
+  .order__table-data--enabled  {
+    background-image: url("../../img/icon-yes.svg");
+    background-size: 32px 32px ;
+  background-repeat: no-repeat;
+    background-position: center;
+  }
+  .order__table-data--disabled  {
+    background-image: url("../../img/icon-no.svg");
+    background-size: 26px 26px ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
