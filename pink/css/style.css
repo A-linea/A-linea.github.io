@@ -591,20 +591,35 @@ img {
   }
 }
 .promo {
+  background-color: #fff;
+}
+.promo__wrapper {
+  position: relative;
+}
+.promo__wrapper::before {
+  position: absolute;
+  content: "";
+  top: 180px;
+  left: 0;
+  width: 100%;
+  height: 825px;
   background-color: #f2f2f2;
-  /* width: 100%;*/
+  background-image: url("../../img/bg-triangle-white.svg");
+  background-repeat: no-repeat no-repeat;
+  z-index: 0;
+  /*background-position:0 19%;*/
 }
 .promo__title {
   position: relative;
   background-color: #fff;
   font-size: 24px;
   line-height: 36px;
+  font-weight: 100;
   color: #283645;
   text-align: center;
   margin: 0 0;
   padding: 0 50px;
   padding-top: 45px;
-  padding-bottom: 55px;
 }
 .promo__title::after {
   position: absolute;
@@ -613,20 +628,20 @@ img {
   bottom: -5px;
   right: 0;
   height: 20%;
-  background-image: url("../../img/tablet-grey-triangle.png");
   background-repeat: no-repeat;
 }
 .promo__text {
   margin: 0;
-  padding: 0 0;
+  padding: 0 50px;
   padding-bottom: 20px;
 }
 .promo__features {
   position: relative;
-  margin-top: 50px;
   text-align: center;
   padding: 0 20px;
+  padding-top: 75px;
   padding-bottom: 280px;
+  z-index: 10;
 }
 .promo__features::after {
   position: absolute;
@@ -636,7 +651,7 @@ img {
   bottom: 0;
   left: 50%;
   margin-left: -84px;
-  background-image: url("../../img/iphone-screen-3-tablet@1x.png");
+  background-image: url("../../img/iphone-screen-mobile@1x.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -660,10 +675,36 @@ img {
   font-weight: 400;
 }
 @media (min-width: 660px) {
+  .promo__wrapper::before {
+    top: 225px;
+    left: 0;
+    width: 100%;
+    height: 527px;
+    z-index: 0;
+  }
+  .promo__features {
+    padding-left: 340px;
+    padding-top: 95px;
+    padding-bottom: 80px;
+    text-align: left;
+  }
+  .promo__features::after {
+    position: absolute;
+    content: "";
+    width: 268px;
+    height: 481px;
+    top: 30px;
+    left: 125px;
+    background-image: url("../../img/iphone-screen-3-tablet@1x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   .promo__title {
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .promo__text {
+    padding: 0 0;
     padding-bottom: 15px;
     font-size: 40px;
     font-weight: 100;
@@ -672,6 +713,10 @@ img {
     margin-left: 130px;
     margin-right: 130px;
     line-height: 65px;
+  }
+  .promo__item p {
+    margin-bottom: 30px;
+    line-height: 26px;
   }
 }
 .reviews {
