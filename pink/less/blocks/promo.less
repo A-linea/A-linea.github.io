@@ -59,7 +59,7 @@
     height: 280px;
     bottom: 0;
     left: 50%;
-    margin-left: -84px;
+    margin-left: -78px;
     background-image: url("../../img/iphone-screen-mobile@1x.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -159,10 +159,12 @@
     margin-left: 5px;
     height: 278px;
     position: relative;
-    &::before  {
+    &::after  {
       position: absolute;
       content: "24";
-      width: 200px;
+      top: 0;
+      left: 0;
+      width: 240px;
       height: 240px;
       border: 20px;
       border-color: @pink;
@@ -173,9 +175,9 @@
   
   .promo__effect-list  {
     margin: 0 auto;
+    margin-top: 40px;
     width: 405px;
     padding-left: 75px;
-    padding-bottom: 60px;
     text-align: left;
     flex-grow: 0;
 

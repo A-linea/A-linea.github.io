@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 298 345.1" enable-background="new 0 0 298 345.1" xml:space="preserve">
+<font horiz-adv-x="2048">
+<!-- Open Sans is a trademark of Google and may be registered in certain jurisdictions. -->
+<!-- Copyright: Copyright 2017 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="OpenSans-Regular" units-per-em="2048" underline-position="-154" underline-thickness="102"/>
+<missing-glyph horiz-adv-x="1229" d="M193,1462l841,0l0,-1462l-841,0M297,104l633,0l0,1254l-633,0z"/>
+<glyph unicode="2" horiz-adv-x="1171" d="M1061,0l-961,0l0,143l385,387C602,649 680,733 717,784C754,835 782,884 801,932C820,980 829,1032 829,1087C829,1165 805,1227 758,1273C711,1318 645,1341 561,1341C500,1341 443,1331 389,1311C334,1291 274,1255 207,1202l-88,113C254,1427 400,1483 559,1483C696,1483 804,1448 882,1378C960,1307 999,1213 999,1094C999,1001 973,910 921,819C869,728 772,614 629,475l-320,-313l0,-8l752,0z"/>
+<glyph unicode="4" horiz-adv-x="1171" d="M1130,336l-217,0l0,-336l-159,0l0,336l-711,0l0,145l694,989l176,0l0,-983l217,0M754,487l0,486C754,1068 757,1176 764,1296l-8,0C724,1232 694,1179 666,1137l-457,-650z"/>
+</font>
+
+	<g>
+	<path fill="#DEDEDE" d="M264.6,102.1l5.4-5.4c7.7-7.7,9.1-18.9,3.1-24.9s-17.2-4.6-24.9,3.1l-5.4,5.4c-21-17-46.6-28.4-74.7-32
+		v-9.6h7.7c10.9,0,19.8-8.7,19.8-19.4S186.6,0,175.7,0h-53.3c-10.9,0-19.8,8.7-19.8,19.4s8.9,19.4,19.8,19.4h7.7v9.6
+		C56.7,57.6,0,120.2,0,196.1c0,82.3,66.7,149,149,149s149-66.7,149-149C298,160.4,285.5,127.7,264.6,102.1z M149,306.3
+		c-60.8,0-110.2-49.3-110.2-110.2S88.2,85.9,149,85.9s110.2,49.3,110.2,110.2S209.8,306.3,149,306.3z"/>
+	<circle fill="none" stroke="#D22856" stroke-width="20" stroke-miterlimit="10" cx="149" cy="196" r="116.2"/>
+	<text transform="matrix(1 0 0 1 96 229.3809)" fill="#D22856" font-family="'Open Sans" font-size="96px" font-weight="700">24</text>
+</g>
+</svg>
