@@ -1,6 +1,10 @@
-/**  {
+html {
   box-sizing: border-box;
-}*/
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   min-width: 320px;
   font-family: "Open Sans", "Arial", sans-serif ;
@@ -10,7 +14,7 @@ body {
   background: @grey;
   margin: 0 auto;
   @media @tablet-widths {
-    min-width: 660px;
+    min-width: 700px;
   }
   @media @desktop-widths {
     min-width: 1060px;
