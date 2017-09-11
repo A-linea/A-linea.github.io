@@ -1,4 +1,5 @@
 .page-header  {
+  min-width: 320px;
   height: 460px;
   background: @darkblue;
   background-image: url("../../img/iphone-hand-mobile@1x.png"),
@@ -9,6 +10,9 @@
   @media @retina  {
     background-image: url("../../img/iphone-hand-mobile@2x.png"),
     url("../../img/bg-back-mobile@2x.jpg");
+    background-position: 77% bottom, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 600px 360px, cover;
   }
 }
 
