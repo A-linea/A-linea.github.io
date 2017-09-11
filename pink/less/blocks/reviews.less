@@ -61,3 +61,48 @@
     margin-bottom: 35px;
   }
 }
+@media @desktop-widths  {
+  .reviews  {
+    padding: 0 40px;
+  }
+  .reviews__wrapper  {
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .reviews__text  {
+    padding-top: 180px;
+    max-width: 700px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 32px;
+    position: relative;
+    &::before  {
+      position: absolute;
+      content: "";
+      background-image: url("../../img/icon-quotes.svg");
+      width: 80px;
+      height: 70px;
+      background-repeat: no-repeat;
+      top: 60px;
+      left: 50%;
+      margin-left: -40px;
+    }
+  }
+  .reviews__name  {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .reviews__profession  {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  .reviews>.switches {
+    display: none;
+  }
+  .reviews__text--hidden  {
+    display: none;
+  }
+}
