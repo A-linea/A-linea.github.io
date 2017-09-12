@@ -120,6 +120,7 @@
       }
     }
   .promo__features {
+    width: 620px;
     margin: 0 auto;
     padding-left: 320px;
     padding-top: 95px;
@@ -152,6 +153,7 @@
     color: #000;
   }
   .promo__effect-wrapper  {
+    width: 620px;
     margin: 0 auto;
     display: flex;
   }
@@ -203,8 +205,8 @@
   }
   .promo__wrapper {
     min-width: 1200px;
-    padding-left: 130px;
     padding-right: 130px;
+    padding-left: 130px;
     /*padding-top: 120px;*/
     &::before  {
       top: 280px;
@@ -216,7 +218,6 @@
       background-repeat: no-repeat no-repeat;
       z-index: 0;
     }
-
   }
   .promo__title  {
     margin: 0 auto;
@@ -235,9 +236,10 @@
     }
   }
   .promo__features {
+    width: 960px;
+    margin: 0 auto;
     padding: 0;
     padding-top: 420px;
-    margin: 0;
     &::after {
       background: none;
     }
@@ -249,6 +251,8 @@
   }
   .promo__item  {
     width: 255px;
+    margin: 0;
+    margin-left: 25px;
   }
   .promo__item h2  {
     font-size: 30px;
@@ -256,7 +260,6 @@
     padding: 0;
     line-height: 36px;
     max-width: 300px;
-
   }
   .promo__item p  {
     max-width: 305px;
@@ -296,30 +299,34 @@
     }
   }
   .promo__effect  {
+    width: 960px;
+    margin: 0 auto;
     margin-top: 50px;
     position: relative;
     z-index: 1;
   }
   .promo__effect-wrapper  {
-    margin: 0 auto;
+    width: 960px;
     display: flex;
+    margin: 0;
+    justify-content: space-around;
   }
   .promo__effect-timer  {
     min-width: 300px;
-    margin-left: 5px;
+    margin: 0;
+    padding: 0;
     height: 353px;
-    position: relative;
+    position: static;
   }
 
   .promo__effect-list  {
-    margin: 0 auto;
     padding: 0;
-    padding-left: 35px;
+    padding-left:15px;
+    margin: 0;
     margin-top: 40px;
-    width: 600px;
+    width: 560px;
     text-align: left;
     flex-grow: 0;
-
   }
   .promo__effect-list h2  {
     font-size: 30px;
@@ -327,11 +334,11 @@
     margin-bottom: 25px;
     padding: 0;
     line-height: 36px;
-    max-width: 300px;
+    min-width: 300px;
 
   }
   .promo__effect-list p  {
-    max-width: 500px;
+    min-width: 500px;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 35px;

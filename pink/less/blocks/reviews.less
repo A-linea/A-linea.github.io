@@ -29,6 +29,9 @@
 .reviews__profession  {
   display: none;
 }
+.reviews__btn-wrapper  {
+  display: none;
+}
 @media @tablet-widths  {
   .reviews  {
     min-width: 700px;
@@ -36,6 +39,9 @@
     padding-bottom: 0;
   }
   .reviews__wrapper  {
+    width: 620px;
+    margin: 0 auto;
+
     display: flex;
     text-align: center;
     flex-direction: column-reverse;
@@ -98,6 +104,39 @@
   .reviews__profession  {
     font-size: 18px;
     margin-bottom: 35px;
+  }
+  .reviews__btn-wrapper {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+  }
+  .reviews__btn  {
+    position: absolute;
+
+    width: 25px;
+    height: 45px;
+    background: none;
+    border: none;
+  }
+  .reviews__btn--prev  {
+    background-image: url("../../img/icon-review-arrow-left.svg");
+    background-repeat: no-repeat;
+    top: 210px;
+    left:-160px;
+    opacity: 0.3;
+    &:hover  {
+      opacity: 0.8;
+    }
+  }
+  .reviews__btn--next  {
+    background-image: url("../../img/icon-review-arrow-right.svg");
+    background-repeat: no-repeat;
+    top: 210px;
+    right: -165px;
+    opacity: 0.3;
+    &:hover  {
+      opacity: 0.8;
+    }
   }
   .reviews>.switches {
     display: none;

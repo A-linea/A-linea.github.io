@@ -344,16 +344,21 @@ img {
   background-image: url("../../img/icon-menu-cross-pink.svg");
 }
 .main-nav__list {
-  display: none;
-  /*opacity: 0;
+  /*display: none;*/
+  opacity: 0;
   margin: 0;
   padding: 0;
   list-style: none;
   display: block;
-  background-color: @darkblue;
+  background-color: #283645;
   width: 100%;
   text-align: center;
-  .animation(@name:fadeOut, @duration: 0.2s, @count: initial, @fill: both);*/
+  animation-name: fadeOut;
+  animation-duration: 0.2s;
+  animation-iteration-count: initial;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
 }
 .main-nav__list--opened {
   margin: 0;
@@ -364,13 +369,13 @@ img {
   background-color: #283645;
   width: 100%;
   text-align: center;
-  /*z-index: 10;*/
   animation-name: fadeInDown;
   animation-duration: 0.3s;
   animation-iteration-count: initial;
   animation-direction: alternate;
   animation-fill-mode: both;
   animation-timing-function: ease-in;
+  z-index: 5;
 }
 .main-nav__item a {
   display: block;
@@ -431,9 +436,12 @@ img {
     display: -ms-flexbox;
     display: flex;
     width: 630px;
+    background-color: transparent;
     margin-right: auto;
     -ms-flex-pack: justify;
         justify-content: space-between;
+    opacity: 1;
+    animation: none;
   }
   .main-nav__item {
     list-style: none;
@@ -443,8 +451,8 @@ img {
     text-transform: none;
     color: #fff;
     padding: 0 0;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -729,6 +737,7 @@ img {
     margin-right: 130px;
   }
   .promo__features {
+    width: 620px;
     margin: 0 auto;
     padding-left: 320px;
     padding-top: 95px;
@@ -761,6 +770,7 @@ img {
     color: #000;
   }
   .promo__effect-wrapper {
+    width: 620px;
     margin: 0 auto;
     display: -ms-flexbox;
     display: flex;
@@ -811,8 +821,8 @@ img {
   }
   .promo__wrapper {
     min-width: 1200px;
-    padding-left: 130px;
     padding-right: 130px;
+    padding-left: 130px;
     /*padding-top: 120px;*/
   }
   .promo__wrapper::before {
@@ -842,9 +852,10 @@ img {
     margin-right: 130px;
   }
   .promo__features {
+    width: 960px;
+    margin: 0 auto;
     padding: 0;
     padding-top: 420px;
-    margin: 0;
   }
   .promo__features::after {
     background: none;
@@ -858,6 +869,8 @@ img {
   }
   .promo__item {
     width: 255px;
+    margin: 0;
+    margin-left: 25px;
   }
   .promo__item h2 {
     font-size: 30px;
@@ -900,27 +913,33 @@ img {
     background-image: url("../../img/iphone-screen-3-desktop@1x.png");
   }
   .promo__effect {
+    width: 960px;
+    margin: 0 auto;
     margin-top: 50px;
     position: relative;
     z-index: 1;
   }
   .promo__effect-wrapper {
-    margin: 0 auto;
+    width: 960px;
     display: -ms-flexbox;
     display: flex;
+    margin: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .promo__effect-timer {
     min-width: 300px;
-    margin-left: 5px;
+    margin: 0;
+    padding: 0;
     height: 353px;
-    position: relative;
+    position: static;
   }
   .promo__effect-list {
-    margin: 0 auto;
     padding: 0;
-    padding-left: 35px;
+    padding-left: 15px;
+    margin: 0;
     margin-top: 40px;
-    width: 600px;
+    width: 560px;
     text-align: left;
     -ms-flex-positive: 0;
         flex-grow: 0;
@@ -931,10 +950,10 @@ img {
     margin-bottom: 25px;
     padding: 0;
     line-height: 36px;
-    max-width: 300px;
+    min-width: 300px;
   }
   .promo__effect-list p {
-    max-width: 500px;
+    min-width: 500px;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 35px;
@@ -980,6 +999,9 @@ img {
 .reviews__profession {
   display: none;
 }
+.reviews__btn-wrapper {
+  display: none;
+}
 @media (min-width: 700px) {
   .reviews {
     min-width: 700px;
@@ -987,6 +1009,8 @@ img {
     padding-bottom: 0;
   }
   .reviews__wrapper {
+    width: 620px;
+    margin: 0 auto;
     display: -ms-flexbox;
     display: flex;
     text-align: center;
@@ -1053,6 +1077,38 @@ img {
   .reviews__profession {
     font-size: 18px;
     margin-bottom: 35px;
+  }
+  .reviews__btn-wrapper {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+  }
+  .reviews__btn {
+    position: absolute;
+    width: 25px;
+    height: 45px;
+    background: none;
+    border: none;
+  }
+  .reviews__btn--prev {
+    background-image: url("../../img/icon-review-arrow-left.svg");
+    background-repeat: no-repeat;
+    top: 210px;
+    left: -160px;
+    opacity: 0.3;
+  }
+  .reviews__btn--prev:hover {
+    opacity: 0.8;
+  }
+  .reviews__btn--next {
+    background-image: url("../../img/icon-review-arrow-right.svg");
+    background-repeat: no-repeat;
+    top: 210px;
+    right: -165px;
+    opacity: 0.3;
+  }
+  .reviews__btn--next:hover {
+    opacity: 0.8;
   }
   .reviews > .switches {
     display: none;
@@ -1144,7 +1200,64 @@ img {
 }
 @media (min-width: 700px) {
   .contacts {
+    min-width: 700px;
     padding-top: 55px;
+  }
+  .contacts__wrapper {
+    width: 620px;
+    margin: 0 auto;
+  }
+  .contacts__title {
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .contacts__inner {
+    display: -ms-flexbox;
+    display: flex;
+    width: 600px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0 50px;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  .contacts__inner-wrapper-3 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .contacts {
+    min-width: 1200px;
+    padding-top: 55px;
+  }
+  .contacts__wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .contacts__title {
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .contacts__inner {
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0 50px;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  .contacts__inner-wrapper-2 {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  .contacts__inner-wrapper-3 {
+    margin: 0;
   }
 }
 .page-footer {
