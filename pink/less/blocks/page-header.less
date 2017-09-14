@@ -14,7 +14,34 @@
     background-size: 600px 360px, cover;
   }
 }
+.page-header__inner  {
+  height: 175px;
+  background: @darkblue;
+  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-position: center 25%;
+  background-repeat: no-repeat;
+  @media @retina  {
+    background-image: url("../../img/bg-back-mobile@2x.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.page-header__inner-content  {
+  color: white;
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+}
+.page-header__inner-content h1  {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  top: -280px;
+  transform: translateX(0%);
 
+}
 @media @tablet-widths  {
   .page-header {
     height: 730px;
