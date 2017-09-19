@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+body {
+  color: #1c1c1c;
+  font: 16px Oxygen, Colibri, Arial, sans-serif;
+  background: #cacaca url("../img/Background.jpg") repeat-x;/*серый бэк необходим в случае если картинка перестанет отображаться*/
+}
+#wrapper {
+  width: 1028px;
+  margin: auto;
+  /*border: 5px solid black;*/
+}
+/*--------------HEADER-------------------*/
+header  {
+  height: 128px;
+  background-color: #f9f9f9;
+
+}
+header a  {
+  width: 180px;
+  height: 128px;
+  background-image: url("../img/main_logo.png");
+  color: transparent;
+  float: left;
+}
+
+form  {
+  float: right;
+  margin: 84px 39px 0 0;
+  font-size: 0;/*убираем пробел между формой и кнопкой отправки*/
+
+
+}
+[type="text"]  {
+  font-size: 16px;/*возвращаем размер шрифта для формы*/
+  width: 208px;
+  height: 34px;
+  box-shadow: #c8c8c8 -1px -1px;
+  border: 0;
+}
+[type="submit"]  {
+  width: 34px;
+  height: 34px;
+  font-size: 16px;
+    background-image: url("../img/submit.png");
+  border: 0; /* убираем бордер для кнопки*/
+}
+
+.white_top  {
+  width: 950px;
+  height: auto;
+  background: #FFFFFF;
+  padding: 36px 39px 0px;
+}
+nav {
+  margin-bottom: 10px;
+}
+nav ul  {
+  height: 70px;
+  list-style: none;
+  display: table; /*Задаем отображение таблицы для применения ширины 100%, не будет необходимости производить расчеты отдельно каждой кнопки меню*/
+  table-layout: fixed;/*Задаем ячейкам одинаковую ширину*/
+  width: 100%;
+}
+nav ul li {
+  display: table-cell;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav ul li a {
+  display: block;
+  line-height: 70px;/*центрируем текст во вертикали*/
+  height: 70px;
+  background: #e8e8e8;
+  color: #202020;
+  text-decoration: none;
+  transition: 0.4s all ease;
+}
+nav ul li a:hover {
+  background: #dc3124;
+  color: #FFFFFF;
+}
+/*---------------ARTICLE-----------------*/
+article {
+  display: table;
+  table-layout: fixed;
+  width: 1028px;
+  height: 325px;
+  background: linear-gradient(to bottom,#c14a3d, #e62e1e);
+}
+div.table {
+  display: table-cell;
+  width: 280px;
+  padding: 0 30px;
+}
+h1  {
+  height: 50px;
+  display: block;
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+img {
+  margin-right: 10px;
+}
+p {
+  text-align: justify;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 20px;
+  margin-left: 5px;
+ }
+.flex_container {
+  display: flex;
+  width: 1028px;
+  height: auto;
+  background: #FFFFFF;
+  padding: 0;
+}
+.flex_item  {
+  margin: 24px 39px 0;
+  width: 218px;
+
+}
+.flex_container h1 {
+  color: #393939;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+.flex_container p  {
+  color: #393939;
+  text-indent: 20px;
+}
+.flex_item_center  {
+  width: 458px;
+  margin-top: 24px;
+}
+.flex_item_center img  {
+  width: 280px;
+  height: 120px;
+  float: left;
+  }
+/*-------------FOOTER--------------*/
+footer  {
+  width: 1028px;
+  height: auto;
+}
+.partners {
+  background-color: #FFFFFF;
+  width: 950px;
+  height: 70px;
+  padding: 60px 39px 0;
+}
+.copyright {
+
+  display: flex;
+  width: 1028px;
+  height: 80px;
+ }
+.copyright_left {
+  width: 428px;
+  padding-left: 39px;
+  font: 18px Calibri;
+  line-height: 80px;
+}
+.copyright_right  {
+  width: 600px;
+  margin: 0 39px;
+  line-height: 80px;
+}
+.copyright_right ul {
+  display: table;
+  list-style: none;
+  table-layout: fixed;
+  width: 100%;
+}
+.copyright_right li {
+  display: table-cell;
+  text-align: center;
+
+}
+.copyright_right li a{
+  text-decoration: none;
+  color: #393939;
+  }
+.copyright_right li a:hover{
+  text-decoration: underline;
+  color: #393939;
+}
+
+/*---------RESPONSIBLE MOBILE----------*/
+
+@media screen and (max-width: 768px) {
+  body  {
+    width: auto;
+    background: #F9F9F9 none;
+  }
+  #wrapper  {
+    width: auto;
+
+  }
+  .slider-wrapper  {
+    display: none;
+  }
+  .white_top {
+    width: auto;
+    padding:10px;
+  }
+  nav ul  {
+    display: block;
+  }
+  nav ul li  {
+    display: list-item;
+    max-width: 768px;
+  }
+  header  {
+    height: auto;
+
+  }
+  header a {
+    float: none;
+    display: block;
+    margin: auto;
+  }
+form  {
+  float: none;
+  /*форма - по умолчанию блочный элемент*/
+  margin: auto;
+  width: 242px;
+}
+  article {
+    width: auto;
+    display: block;
+    height: auto;
+    margin: 340px 10px 0;
+   }
+  div.table {
+    display: block;
+    text-align: center;
+    width: auto;
+    padding: 10px 30px;
+    border-top: 2px solid #F9F9F9;
+  }
+  .flex_container {
+    display: block;
+    width: auto;
+  }
+
+  .flex_container div {
+    margin: 25px 10px;
+    text-align: center;
+    border-top: 3px solid #393939;
+    width: auto;
+   }
+  .flex_item_center img  {
+    display: none;
+  }
+  .flex_item_center h1 {
+    height: auto;
+  }
+  footer  {
+    width: auto;
+  }
+  .partners {
+    display: none;
+  }
+  .copyright {
+    width: auto;
+    text-align: center;
+  }
+  .copyright_right  {
+    display: none
+  }
+  }
+/*--------------FINISH*---------------/
