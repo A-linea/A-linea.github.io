@@ -1,3 +1,3 @@
 # Alinea
-## Demo pages
+## Demo
 
