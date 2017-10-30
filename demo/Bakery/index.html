@@ -22,6 +22,7 @@
   <link rel="preload" href="css/style.min.css" as="style">
   <link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="css/style.min.css"></noscript>
+  <link rel="stylesheet" href="css/style.min.css">
   <script> !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);document.createElement("picture");</script>
   <script src="js/picturefill.min.js" defer></script>
   <script src="js/lazysizes.min.js" defer></script>
@@ -106,7 +107,11 @@
               <h4>Chef Cook</h4>
               <b>Benito</b>
               <div class="cakes__chef-img">
-                <img src="img/Section-1/chief-cook.png" alt="chef cook">
+                <picture>
+                  <source data-srcset="img/Section-1/chief-cook.webp" type="image/webp">
+                  <source data-srcset="img/Section-1/chief-cook.png" type="image/png">
+                  <img src="img/Section-1/chief-cook.png" alt="chef cook">
+                </picture>
               </div>
               <b>Gospare</b>
               <cite>Unique creations for unique occasions</cite>
@@ -150,10 +155,12 @@
           <div class="favourite__content">
             <div class="favourite__rate">
               <figure class="favourite__img">
-                <img class="lazyload  blur-up" data-src="img/Section-2/pancakes.png"
-                     data-expand="400" alt="pancake"
-                     width="436"
-                     height="525">
+                <picture>
+                  <source data-srcset="img/Section-2/pancakes.webp" type="image/webp">
+                  <source data-srcset="img/Section-2/pancakes.png" type="image/png">
+                  <img class="lazyload  blur-up" data-src="img/Section-2/pancakes.png" type="image/png"
+                       data-expand="400" alt="pancake" width="436" height="525">
+                </picture>
                 <div class="favourite__icons"><svg class="favourite__icon  favourite__icon--fill">
                   <use xlink:href="img/sprite.svg#ico-star-fill"></use>
                 </svg>
@@ -259,7 +266,6 @@
     <div class="container">
       <div class="receipt__wrapper">
         <div class="receipt__inner">
-       
           <div class="receipt__content">
             <div class="receipt__descr">
               <div class="receipt__inner-wrapper">
@@ -290,8 +296,8 @@
               <div class="receipt__picture-wrapper">
                 <picture>
                   <source data-srcset="img/Section-4/sandwich.webp" type="image/webp">
-                  <source data-srcset="mg/Section-4/sandwich.jpg" type="image/jpeg">
-                  <img class="lazyload" data-expand="700" data-src="img/Section-4/sandwich.jpg"
+                  <source data-srcset="img/Section-4/sandwich.jpg" type="image/jpeg">
+                  <img class="lazyload" data-src="img/Section-4/sandwich.jpg"
                      alt="sandwich">
                 </picture>
                 <div class="receipt__sticker  receipt__sticker--top">
