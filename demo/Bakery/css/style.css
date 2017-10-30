@@ -531,6 +531,17 @@ h4 {
   font-size: 1.5rem;
 }
 
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 400ms, -webkit-filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
 /*@import "global/functions.scss";*/
 .btn {
   -webkit-box-sizing: border-box;
@@ -1218,7 +1229,7 @@ a.btn--disabled {
   padding-right: 0.9375rem;
 }
 
-.cakes__photo-side figure {
+.cakes__photo-side .cakes__gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1230,7 +1241,7 @@ a.btn--disabled {
   position: relative;
 }
 
-.cakes__photo-side figure::before {
+.cakes__photo-side .cakes__gallery::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1247,7 +1258,7 @@ a.btn--disabled {
   opacity: 0.9;
 }
 
-.cakes__photo-side figure::after {
+.cakes__photo-side .cakes__gallery::after {
   content: "tastes so good!";
   position: absolute;
   top: 50%;
@@ -2111,11 +2122,11 @@ a.btn--disabled {
     display: flex;
   }
 
-  .cakes__photo-side figure {
+  .cakes__photo-side .cakes__gallery {
     margin: auto;
   }
 
-  .cakes__photo-side figure::before {
+  .cakes__photo-side .cakes__gallery::before {
     margin-top: 0.625rem;
     width: 12.5rem;
     height: 12.5rem;
@@ -2202,7 +2213,7 @@ a.btn--disabled {
     position: relative;
   }
 
-  .cakes__photo-side figure::before {
+  .cakes__photo-side .cakes__gallery::before {
     margin-top: 0.625rem;
     width: 12.5rem;
     height: 12.5rem;
@@ -2212,17 +2223,17 @@ a.btn--disabled {
     max-height: 10rem;
   }
 
-  .cakes__photo-side figure {
+  .cakes__photo-side .cakes__gallery {
     margin: auto;
   }
 
-  .cakes__photo-side figure::before {
+  .cakes__photo-side .cakes__gallery::before {
     margin-top: 0.625rem;
     width: 10rem;
     height: 10rem;
   }
 
-  .cakes__photo-side figure::after {
+  .cakes__photo-side .cakes__gallery::after {
     font-size: 1.125rem;
   }
 
@@ -2397,17 +2408,17 @@ a.btn--disabled {
     max-height: 8.75rem;
   }
 
-  .cakes__photo-side figure {
+  .cakes__photo-side .cakes__gallery {
     margin: auto;
   }
 
-  .cakes__photo-side figure::before {
+  .cakes__photo-side .cakes__gallery::before {
     margin-top: 0.3125rem;
     width: 8.125rem;
     height: 8.125rem;
   }
 
-  .cakes__photo-side figure::after {
+  .cakes__photo-side .cakes__gallery::after {
     font-size: 1rem;
   }
 
@@ -2672,13 +2683,13 @@ a.btn--disabled {
     max-height: 10.9375rem;
   }
 
-  .cakes__photo-side figure::before {
+  .cakes__photo-side .cakes__gallery::before {
     margin-top: 0.625rem;
     width: 10rem;
     height: 10rem;
   }
 
-  .cakes__photo-side figure::after {
+  .cakes__photo-side .cakes__gallery::after {
     font-size: 1.125rem;
   }
 
@@ -3150,11 +3161,11 @@ a.btn--disabled {
     bottom: -1.5625rem;
   }
 
-  .cakes__photo-side figure img {
+  .cakes__gallery img {
     display: none;
   }
 
-  .cakes__photo-side figure::before, .cakes__photo-side figure::after {
+  .cakes__gallery::before, .cakes__gallery::after {
     display: none;
   }
 
