@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#ffffff">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <title>Medical Hospital</title>
+    <!-- font preload -->
+    <link rel="preload" href="fonts/openSans/opensans.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Critical css -->
+    <style type="text/css">@font-face{font-family:"Open Sans";src:url(fonts/openSans/opensans.woff2) format("woff2"),url(fonts/openSans/opensans.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:"Open Sans";src:url(fonts/openSans/opensansbold.woff2) format("woff2"),url(fonts/openSans/opensansbold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Montserrat;src:url(fonts/montserrat/Montserrat-Regular.woff2) format("woff2"),url(fonts/montserrat/Montserrat-Regular.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Montserrat;src:url(fonts/montserrat/Montserrat-Bold.woff2) format("woff2"),url(fonts/montserrat/Montserrat-Bold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Nexa;src:url(fonts/nexa/NexaBold.woff2) format("woff2"),url(fonts/nexa/NexaBold.woff) format("woff");font-weight:700;font-style:normal}h2{font-family:Montserrat,"Open Sans",Ubuntu,"Droid Sans","Helvetica Neue",Arial,sans-serif;font-weight:700}.features{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:#43b1d2}.features__card{-ms-flex-preferred-size:100%;flex-basis:100%;min-width:25%;background-color:#43b1d2;text-align:center;color:#fff;padding-bottom:1.25rem}.features__card--help{background-color:#3fb6c6}.features__card--staff{background-color:#3cbbbb}.features__card--doctors{background-color:#37c3a8}@media (min-width:768px){.container{width:100%}.main-header__logo-container{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;padding-left:0;padding-right:0}.main-header__contacts--call,.main-header__contacts--mailus,.main-header__contacts--worktime{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;padding-left:15px;padding-right:15px}.main-header__top-line{padding-top:1.875rem}.main-header__contacts--worktime{display:block}.main-header__icons-container{margin:auto;width:200px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.main-header__icons-container a{text-decoration:none;display:inline-block;vertical-align:top;width:30px;margin:auto}.main-header__icon{width:1.5625rem;height:1.5625rem}.main-header__icon--fb,.main-header__icon--vk{padding-bottom:3px}.main-header__icon--google{width:1.875rem;height:2.1875rem}.main-header__icon--in{padding-bottom:3px}.main-nav{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%;padding-left:15px;padding-right:15px;display:block!important;background-color:transparent}.main-nav__toggle{display:none}.main-nav__list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;font-size:.8125rem;padding:0 .3125rem}.main-nav__link{font-size:1.25rem;text-transform:none;color:#666}.hero__container{-webkit-box-flex:0;-ms-flex:0 0 62.5%;flex:0 0 62.5%;max-width:62.5%;padding-left:15px;padding-right:15px}.hero{background-position:55% 50%}.hero__inner{padding:13.4375rem 0}.hero__title{font-size:2.75rem;font-weight:700}.hero__text{color:#333;font-size:1.0625rem;margin-top:3.125rem;line-height:1.7}.hero__btn{margin-top:2.5rem}.features__card{-ms-flex-preferred-size:50%;flex-basis:50%;min-width:25%;padding-bottom:2.5rem}.gallery__img{padding-top:20px}.gallery__inner>*{-ms-flex-preferred-size:100%;flex-basis:100%}}@media (min-width:992px){.container{width:962px}.main-header__logo-container{-webkit-box-flex:0;-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%;padding-left:0;padding-right:0}.main-header__contacts--call,.main-header__contacts--mailus,.main-header__contacts--worktime,.main-header__social{-webkit-box-flex:0;-ms-flex:0 0 31.25%;flex:0 0 31.25%;max-width:31.25%;padding-left:15px;padding-right:15px}.main-header__contacts--call,.main-header__social{-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%}.main-header__social{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.main-header__contacts--call,.main-header__contacts--mailus{display:block}.hero__container,.main-nav{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%;padding-left:15px;padding-right:15px}.hero__container{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.hero{background-position:50% 50%}.hero__inner{padding:13.4375rem 0}.features__card{-ms-flex-preferred-size:25%;flex-basis:25%}}@media (min-width:1250px){.container{width:1220px}.main-header__logo-container{-webkit-box-flex:0;-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%;padding-left:0;padding-right:0}.main-header__contacts--worktime{margin-left:12.5%}.main-header__contacts--mailus,.main-header__contacts--worktime{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-left:15px;padding-right:15px}.main-header__contacts--call{-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%}.main-header__contacts--call,.main-header__social,.main-nav{-webkit-box-flex:0;padding-left:15px;padding-right:15px}.main-header__social{margin-left:31.25%;-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%}.main-nav{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.features__title{padding-top:8.75rem;position:relative}.features__title::after,.features__title::before{content:"";position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.features__title::before{width:4.0625rem;height:4.0625rem;background-color:#fff;border-radius:2.5rem}.features__title::after{background-image:url(img/sprite.png);background-position:-182px -53px;width:45px;height:50px}.features__title--help::after{background-image:url(img/sprite.png);background-position:0 -151px;width:51px;height:46px}.features__title--doctors::after,.features__title--staff::after{background-image:url(img/sprite.png);background-position:-229px 0;width:31px;height:54px}.features__title--doctors::after{background-position:-51px -151px;width:44px;height:42px}}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-box-sizing:border-box;box-sizing:border-box}body{min-width:320px;background-color:#fff;color:#666;font-family:-apple-system,BlinkMacSystemFont,"Open Sans",Ubuntu,"Droid Sans","Helvetica Neue",Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.3;padding:0}header,main,nav,section{display:block}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}strong{font-weight:bolder}img{border-style:none;height:auto;max-width:100%}svg:not(:root){overflow:hidden}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}.container{display:block;width:100%;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.owl-carousel{display:none;width:100%;position:relative;z-index:1}.main-header__top-line{padding-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px;padding-bottom:.3125rem}.main-header__top-line>*{-ms-flex-preferred-size:100%;flex-basis:100%}.main-header__top-line::after{content:"";width:100%;margin:auto;left:2.5%;right:2.5%;border:.7px solid rgba(102,102,102,.3)}.main-header__logo-container{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:0;padding-right:0}.main-header__logo{padding:.6875rem 0}.main-header__contacts--call,.main-header__contacts--mailus,.main-header__contacts--worktime{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:15px;padding-right:15px;display:none}.main-header__contacts{font-size:.9375rem;padding-top:.4375rem;padding-bottom:.4375rem}.main-header__contacts-wrapper{padding-left:3.125rem;padding-top:.1875rem;padding-bottom:.1875rem;position:relative}.main-header__contacts-wrapper::before{content:"";left:0;position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);height:2.5rem;width:2.5rem;background-color:#0087be;border-radius:1.25rem}.main-header__contacts-wrapper--call,.main-header__contacts-wrapper--mailus,.main-header__contacts-wrapper--worktime{position:relative}.main-header__contacts-wrapper--worktime::before{background-image:url(img/ico-time.svg);background-repeat:no-repeat;background-size:25px 25px;background-position:center center}.main-header__contacts-wrapper--call::before,.main-header__contacts-wrapper--mailus::before{background-image:url(img/ico-envelope.svg);background-repeat:no-repeat;background-size:25px 25px;background-position:center center}.main-header__contacts-wrapper--call::before{background-image:url(img/ico-phone.svg)}.main-header__contacts-text{margin:0;padding:0;padding-bottom:.1875rem}.main-header__contacts-text--bigger{text-transform:uppercase;font-weight:700}.main-header__contacts-text span{text-transform:uppercase}.main-header__contacts-link{text-decoration:none;color:#666}.main-header__icons-container{display:none}.main-header__middle{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px}.main-header__middle>*{-ms-flex-preferred-size:100%;flex-basis:100%}.main-header__social{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-left:15px;padding-right:15px;display:-webkit-box;display:-ms-flexbox;display:flex}.btn{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;margin:0;padding:.75rem 1.875rem;white-space:nowrap;vertical-align:middle;text-align:center;font-size:1rem;font-family:inherit;font-weight:700;line-height:1.3;text-decoration:none;text-transform:uppercase;color:#fff;border-radius:1.875rem;background-color:#0087be;background-image:none;-webkit-box-shadow:-3.5px 11.5px 40px rgba(0,1,1,.2);box-shadow:-3.5px 11.5px 40px rgba(0,1,1,.2)}.main-nav{display:none;-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:0;padding-right:0;background-color:#0087be}.main-nav__link,.main-nav__list{font-family:Nexa,"Open Sans",Ubuntu,"Droid Sans","Helvetica Neue",Arial,sans-serif;padding:.625rem 0}.main-nav__list{list-style:none;margin:0;padding:0;font-size:1rem;font-weight:400}.main-nav__link{text-transform:uppercase;display:block;border-bottom:1px solid rgba(255,255,255,.3);text-decoration:none;color:#fff;text-align:center}.main-nav__toggle{display:block;height:38px;right:15px;padding:.625rem;position:absolute;top:12px;vertical-align:top;width:55px}.main-nav__toggle span:after,.main-nav__toggle span:before{content:"";position:absolute;left:0}.main-nav__toggle span:before{top:9px}.main-nav__toggle span:after{top:18px}.main-nav__toggle span{position:relative;display:block}.main-nav__toggle span,.main-nav__toggle span:after,.main-nav__toggle span:before{width:100%;height:2px;background-color:#0087be;-webkit-backface-visibility:hidden;backface-visibility:hidden;border-radius:2px}.hero,.hero__inner{display:-webkit-box;display:-ms-flexbox;display:flex}.hero{background-image:url(img/hero-bg.jpg);background-repeat:no-repeat;min-height:40rem;background-size:cover;background-position:60% 50%}.hero__inner{-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px;padding:6.5625rem 0}.hero__inner>*{-ms-flex-preferred-size:100%;flex-basis:100%}.hero__container{padding:0 1.25rem;text-align:center}.hero__title{color:#1a1a1a;font-family:Montserrat,"Open Sans",sans-serif;font-size:1.25rem;font-weight:700}.hero__text{color:#333;font-size:.9375rem;line-height:1.7}.hero .hero__btn,.hero__text{margin-top:1.25rem}.gallery__inner>*{-ms-flex-preferred-size:100%;flex-basis:100%}.gallery__images{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:15px;padding-right:15px;text-align:center;color:#fff}@media (min-width:480px){.container{width:100%}.main-nav{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:0;padding-right:0}.main-nav__list{list-style:none;margin:0;padding:0;font-size:1.0625rem;text-transform:none;font-family:Nexa,"Open Sans",Ubuntu,"Droid Sans","Helvetica Neue",Arial,sans-serif;font-weight:400}.hero{background-position:57% 50%}.hero__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px;padding:7.1875rem 0}.hero__inner>*{-ms-flex-preferred-size:100%;flex-basis:100%}.hero__container{padding:0 1.25rem;text-align:center}.hero__title{font-size:1.5rem}.hero__text{font-size:1rem}.gallery__img{padding:0 10px}}@media (min-width:768px){.container{width:100%}.main-header__logo-container{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;padding-left:0;padding-right:0}.main-header__contacts--call,.main-header__contacts--mailus,.main-header__contacts--worktime{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;padding-left:15px;padding-right:15px}.main-header__top-line{padding-top:1.875rem}.main-header__contacts--worktime{display:block}.main-header__icons-container{margin:auto;width:200px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.main-header__icons-container a{text-decoration:none;display:inline-block;vertical-align:top;width:30px;margin:auto}.main-header__icon{width:1.5625rem;height:1.5625rem}.main-header__icon--fb,.main-header__icon--vk{padding-bottom:3px}.main-header__icon--google{width:1.875rem;height:2.1875rem}.main-header__icon--in{padding-bottom:3px}.main-nav{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%;padding-left:15px;padding-right:15px;display:block!important;background-color:transparent}.main-nav__toggle{display:none}.main-nav__list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;font-size:.8125rem;padding:0 .3125rem}.main-nav__link{font-size:1.25rem;text-transform:none;color:#666}.hero__container{-webkit-box-flex:0;-ms-flex:0 0 62.5%;flex:0 0 62.5%;max-width:62.5%;padding-left:15px;padding-right:15px}.hero{background-position:55% 50%}.hero__inner{padding:13.4375rem 0}.hero__title{font-size:2.75rem;font-weight:700}.hero__text{color:#333;font-size:1.0625rem;margin-top:3.125rem;line-height:1.7}.hero__btn{margin-top:2.5rem}.gallery__img{padding-top:20px}.gallery__inner>*{-ms-flex-preferred-size:100%;flex-basis:100%}}@media (min-width:992px){.container{width:962px}.main-header__logo-container{-webkit-box-flex:0;-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%;padding-left:0;padding-right:0}.main-header__contacts--call,.main-header__contacts--mailus,.main-header__contacts--worktime,.main-header__social{-webkit-box-flex:0;-ms-flex:0 0 31.25%;flex:0 0 31.25%;max-width:31.25%;padding-left:15px;padding-right:15px}.main-header__contacts--call,.main-header__social{-ms-flex:0 0 18.75%;flex:0 0 18.75%;max-width:18.75%}.main-header__social{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.main-header__contacts--call,.main-header__contacts--mailus{display:block}.hero__container,.main-nav{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%;padding-left:15px;padding-right:15px}.hero__container{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.hero{background-position:50% 50%}.hero__inner{padding:13.4375rem 0}}</style>
+    <script> !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);document.createElement("picture");</script>
+    <script src="js/picturefill.min.js" async></script>
+    <script src="js/lazysizes.min.js" async></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header__top-line">
+          <div class="main-header__logo-container">
+            <div class="main-header__logo">
+              <img src="img/logo.png" alt="Medical Hospital logo" width="210">
+            </div>
+          </div>
+          <div class="main-header__contacts  main-header__contacts--worktime">
+            <div class="main-header__contacts-wrapper  main-header__contacts-wrapper--worktime">
+              <p class="main-header__contacts-text  main-header__contacts-text--bigger">work time 09:00 -17:00</p>
+              <p class="main-header__contacts-text">Saturday and Sunday - <span>closed</span></p>
+            </div>
+          </div>
+          <div class="main-header__contacts  main-header__contacts--mailus">
+            <div class="main-header__contacts-wrapper  main-header__contacts-wrapper--mailus">
+              <p class="main-header__contacts-text  main-header__contacts-text--bigger">mail us</p>
+              <a class="main-header__contacts-link  main-header__contacts-link--mail" href="mailto:bestdoctor@example.com?Subject=Hello%20" target="_top">bestdoctor@example.com</a>
+            </div>
+          </div>
+          <div class="main-header__contacts  main-header__contacts--call">
+            <div class="main-header__contacts-wrapper  main-header__contacts-wrapper--call">
+              <p class="main-header__contacts-text  main-header__contacts-text--bigger">call us</p>
+              <a class="main-header__contacts-link  main-header__contacts-link--phone"
+                href="tel:+1234567890">+4234567890</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-header__middle">
+          <nav class="main-nav" role="navigation">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link  main-nav__link--active">Menu</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#about" class="main-nav__link">About</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#services" class="main-nav__link">Services</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#gallery" class="main-nav__link">Gallery</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#ourTeam" class="main-nav__link">Our team</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#contacts" class="main-nav__link">Contacts us</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="main-nav__toggle"><span></span></a>
+          <div class="main-header__social">
+            <div class="main-header__icons-container">
+              <a href="#">
+                <svg class="main-header__icon  main-header__icon--fb">
+                  <use xlink:href="img/sprite.svg#ico-facebook"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="main-header__icon  main-header__icon--google">
+                  <use xlink:href="img/sprite.svg#ico-google-plus"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="main-header__icon  main-header__icon--vk">
+                  <use xlink:href="img/sprite.svg#ico-vk"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="main-header__icon  main-header__icon--tube">
+                  <use xlink:href="img/sprite.svg#ico-youtube"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="main-header__icon  main-header__icon--in">
+                  <use xlink:href="img/sprite.svg#ico-linkedin"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page__main-content" role="main">
+      <!--Content start-->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__container">
+              <strong class="hero__title">
+              We have Best Medicare plan options for you
+              </strong>
+              <p class="hero__text">Sed cursus nisl praesent vulputate dapibus sociis. Nibh integer. Nec facilisis, natoque augue dictum purus lorem phasellus tempor.</p>
+              <a href="" class="hero__btn  btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features__card  features__card--treatment">
+          <h2 class="features__title  features__title--treatment">Best treatment</h2>
+          <p class="features__text">Ullamcorper at in  vivamus molestie ipsum porttitor eu vel etiam. Ante ridiculus primis.</p>
+        </div>
+        <div class="features__card  features__card--help">
+          <h2 class="features__title  features__title--help">Emergency help</h2>
+          <p class="features__text">Lectus. Aliquam  convallis. Congue quisque est eleifend. Luctus  tellus, faucibus aenean porttitor.</p>
+        </div>
+        <div class="features__card  features__card--staff">
+          <h2 class="features__title  features__title--staff">Medical staff</h2>
+          <p class="features__text">Gravida, nonummy  nisl tristique. Rhoncus natoque. Accumsan ligula et commodo orci</p>
+        </div>
+        <div class="features__card  features__card--doctors">
+          <h2 class="features__title  features__title--doctors">Qualified doctors</h2>
+          <p class="features__text">Massa inceptos tortor. Tellus duis. Scelerisque ut elit. Fermentum faucibus molestie.</p>
+        </div>
+      </section>
+      <section id="about"  class="advantages">
+        <div class="container">
+          <div class="advantages__header">
+            <h2 class="advantages__title">Why Choose us?</h2>
+            <p class="advantages__text">Senectus fermentum elementum ut tristique. Erat libero magnis vel consequat massa viverra torquent lorem accumsan. Scelerisque donec iaculis felis, commodo eleifend magna, arcu tortor suspendisse, pretium. Mollis phasellus sed.</p>
+          </div>
+          <div class="advantages__content">
+            <div class="advantages__side  advantages__side--left">
+              <div class="advantages__inner">
+                <h3 class="advantages__inner-title  advantages__inner-title--listen">We listen </h3>
+                <p class="advantages__inner-text">Orci id dolor litora vulputate suspendisse. Cubilia turpis aliquam taciti dignissim eleifend nec.</p>
+              </div>
+              <div class="advantages__inner">
+                <h3 class="advantages__inner-title  advantages__inner-title--prof">Proffesional</h3>
+                <p class="advantages__inner-text">Tristique eleifend litora enim ante porta, quis nostra ornare vulputate euismod dapibus dui.</p>
+              </div>
+            </div>
+            <div class="advantages__photo">
+              <div class="advantages__image-wrapper">
+                <picture>
+                  <source data-srcset="img/webp/nurse.webp" type="image/webp">
+                  <source data-srcset="img/section-1/nurse.jpg" type="image/jpeg">
+                  <img data-src="img/section-1/nurse.jpg" alt="photo nurse" class="advantages__image  lazyload" role="img" width="325" height="590">
+                </picture>
+              </div>
+            </div>
+            <div class="advantages__side  advantages__side--right">
+              <div class="advantages__inner">
+                <h3 class="advantages__inner-title  advantages__inner-title--passionate">Passionate</h3>
+                <p class="advantages__inner-text">Sem placerat eleifend turpis ac porttitor ultrices nisl. Sagittis vulputate egestas, torquent placerat.</p>
+              </div>
+              <div class="advantages__inner">
+                <h3 class="advantages__inner-title  advantages__inner-title--exp">Experience</h3>
+                <p class="advantages__inner-text">Curabitur. Tempor litora vitae eleifend consequat, urna vehicula hendrerit litora vulputate blandit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="achievements">
+        <div class="container">
+          <ul class="achievements__data-wrapper">
+            <li class="achievements__data  achievements__data--customers">
+              <span class="achievements__count" id="customers">1000+</span>
+              <p class="achievements__text">Happy Customers</p>
+            </li>
+            <li class="achievements__data  achievements__data--hospitality">
+              <span class="achievements__count" id="hospitality">2017</span>
+              <p class="achievements__text">Top Hospitality</p>
+            </li>
+            <li class="achievements__data  achievements__data--innovation">
+              <span class="achievements__count" id="approach">1125+</span>
+              <p class="achievements__text">Innovative approach</p>
+            </li>
+            <li class="achievements__data  achievements__data--lung">
+              <span class="achievements__count" id="lung">500+</span>
+              <p class="achievements__text">Lung Replacement</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__content-wrapper">
+            <article class="about__content  about__content--right" role="article">
+              <h2 class="about__title">How we works</h2>
+              <p class="about__text">Pulvinar elit dictumst mauris id. Nisi augue pharetra dignissim tempor phasellus. Tempor tortor nec Non mus at platea maecenas vitae dolor rutrum pulvinar aptent ridiculus, quisque dolor porta mus montes scelerisque nostra tincidunt enim. Mi vel sagittis venenatis eleifend Natoque.</p>
+              <div class="about__article-wrapper">
+                <div class="about__article about__article--left">
+                  <div class="about__image">
+                    <img src="img/section-3/photo-1.jpg" alt="photo">
+                  </div>
+                  <h4 class="about__article-title">Professional medical advice</h4>
+                  <span class="about__article-date">October 10, 2017</span>
+                  <span class="about__article-name">Dr. Megan Bates</span>
+                  <p class="about__article-text">Pellentesque venenatis mattis sagittis nam senectus non senectus dui platea neque venenatis pede litora.</p>
+                </div>
+                <div class="about__article about__article--right">
+                  <div class="about__image">
+                    <img src="img/section-3/photo-2.jpg" alt="photo">
+                  </div>
+                  <h4 class="about__article-title">The care of the patient</h4>
+                  <span class="about__article-date">November 11, 2017</span>
+                  <span class="about__article-name">Dr.Michael Hunt</span>
+                  <p class="about__article-text">Vestibulum convallis mattis vivamus. Imperdiet. Conubia neque vitae pede venenati convallis s nisl facilisis.</p>
+                </div>
+              </div>
+              <div class="about__btn-wrapper">
+                <a href="#" class="about__btn btn" role="link">Read more</a>
+              </div>
+            </article>
+            <div class="about__content  about__content--left">
+              <h2 class="about__title">Our creative</h2>
+              <p class="about__text">Luctus at integer parturient pretium curae; mattis auctor tortor torquent nec, feugiat ad eleifend, nostra sagittis. Nibh scelerisque.</p>
+              <button type="button" class="about__player-btn btn about__player-btn--active">Heart Treatment</button>
+              <p class="about__player-descr">
+                Pharetra ligula volutpat in sem rutrum elit. Sagittis . Imperdiet amet    proin dignissim. Magnis erat   lobortis. Bibendum  sit  litora. Magna et ad.
+              </p>
+              <button class="about__player-btn btn" type="button">Professional medical advice</button>
+              <button type="button" class="about__player-btn btn">Emergency help</button>
+              <button type="button" class="about__player-btn btn">Medical staff</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="gallery__inner">
+            <h2 class="gallery__titile">Gallery</h2>
+            <p class="gallery__text">Eleifend sed congue pellentesque convallis quis nam elementum. Hymenaeos, tortor molestie pellentesque platea. Magna. Magnis sit fringilla. Sem sociis. Integer platea tortor.</p>
+            <div class="gallery__images  owl-carousel owl-theme">
+              <picture>
+                <img src="img/section-4/img-1.jpg" width="344" height="209" alt="image-1" class="gallery__img" role="img">
+              </picture>
+              <picture>
+                <img src="img/section-4/img-2.jpg" width="344" height="209" alt="image-2" class="gallery__img" role="img">
+              </picture>
+              <picture>
+                <img src="img/section-4/img-3.jpg" width="344" height="209" alt="image-3" class="gallery__img" role="img">
+              </picture>
+              <picture>
+                <img src="img/section-4/img-4.jpg" width="344" height="209" alt="image-4" class="gallery__img" role="img">
+              </picture>
+              <picture>
+                <img src="img/section-4/img-5.jpg" width="344" height="209" alt="image-5" class="gallery__img" role="img">
+              </picture>
+              <picture>
+                <img src="img/section-4/img-6.jpg" width="344" height="209" alt="image-6" class="gallery__img" role="img">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="ourTeam" class="team">
+        <div class="container">
+          <h2 class="team__title">
+            Our team
+          </h2>
+          <p class="team__text">
+            Porta class per cursus sed fames elit euismod ornare quisque, turpis elementum blandit elit mus, pellentesque risus sem. Vitae.
+          </p>
+          <div class="team__list">
+            <div class="team__item">
+              <picture>
+                <source data-srcset="img/webp/photo-1.webp" type="image/webp">
+                <source data-srcset="img/section-5/photo-1.png" type="image/png">
+                <img data-src="img/section-5/photo-1.png" alt="Dr.Reuben Matthews" class="team__img  lazyload">
+              </picture>
+              <p class="team__name">Dr.Reuben Matthews</p>
+              <p class="team__specialty">Surgeon</p>
+              <div class="team__social">
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--fb">
+                    <use xlink:href="img/sprite.svg#ico-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--google">
+                    <use xlink:href="img/sprite.svg#ico-google-plus"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--vk">
+                    <use xlink:href="img/sprite.svg#ico-vk"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="team__item">
+              <picture>
+                <source data-srcset="img/webp/photo-2.webp" type="image/webp">
+                <source data-srcset="img/section-5/photo-2.png" type="image/png">
+                <img data-src="img/section-5/photo-2.png" alt="Dr.Michael Hunt" class="team__img  lazyload">
+              </picture>
+              <p class="team__name">Dr.Michael Hunt</p>
+              <p class="team__specialty">Assistant Surgeon</p>
+              <div class="team__social">
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--fb">
+                    <use xlink:href="img/sprite.svg#ico-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--google">
+                    <use xlink:href="img/sprite.svg#ico-google-plus"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg  class="team__social-icon  team__social-icon--vk">
+                    <use xlink:href="img/sprite.svg#ico-vk"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="team__item">
+              <picture>
+                <source data-srcset="img/webp/photo-3.webp" type="image/webp">
+                <source data-srcset="img/section-5/photo-3.png" type="image/png">
+                <img data-src="img/section-5/photo-3.png" alt="Dr.Megan Bates" class="team__img  lazyload">
+              </picture>
+              <p class="team__name">Dr.Megan Bates</p>
+              <p class="team__specialty">Therapist</p>
+              <div class="team__social">
+                <a href="#">
+                  <svg  class="team__social-icon  team__social-icon--fb">
+                    <use xlink:href="img/sprite.svg#ico-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--google">
+                    <use xlink:href="img/sprite.svg#ico-google-plus"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--vk">
+                    <use xlink:href="img/sprite.svg#ico-vk"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="team__item">
+              <picture>
+                <source data-srcset="img/webp/photo-4.webp" type="image/webp">
+                <source data-srcset="img/section-5/photo-4.png" type="image/png">
+                <img src="img/section-5/photo-4.png" alt="Dr.Jovanni Aguirre
+                  " class="team__img  lazyload">
+              </picture>
+              <p class="team__name">Dr.Jovanni Aguirre</p>
+              <p class="team__specialty">Assistant Surgeon</p>
+              <div class="team__social">
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--fb">
+                    <use xlink:href="img/sprite.svg#ico-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--google">
+                    <use xlink:href="img/sprite.svg#ico-google-plus"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="team__social-icon  team__social-icon--vk">
+                    <use xlink:href="img/sprite.svg#ico-vk"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="container">
+          <div class="offer__inner">
+            <div class="offer__title">
+              <strong>New Patient Special Offer Complimentary Consultation</strong>
+            </div>
+            <div class="offer__btn-centerer">
+              <a href="#" role="link" class="offer__btn btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Content end-->
+    <!--Footer start-->
+    <footer id="contacts" class="main-footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__contacts-wrapper">
+            <h3 class="footer__title">Get in touch</h3>
+            <div class="footer__contacts  footer__contacts--mail">
+              <svg class="footer__contacts-ico  footer__contacts-ico--mail">
+                <use xlink:href="img/sprite.svg#ico-envelope"></use>
+              </svg>
+              <a class="footer__contacts-link  footer__contacts-link--mail"
+                href="mailto:bestdoctor@example.com?Subject=Hello%20" target="_top">bestdoctor@example.com</a>
+            </div>
+            <div class="footer__contacts  footer__contacts--phone">
+              <svg class="footer__contacts-ico  footer__contacts-ico--phone">
+                <use xlink:href="img/sprite.svg#ico-phone"></use>
+              </svg>
+              <a class="footer__contacts-link  footer__contacts-link--phone"
+                href="tel:+1234567890">+4234567890</a>
+            </div>
+            <div class="footer__contacts footer__contacts--address">
+              <svg class="footer__contacts-ico  footer__contacts-ico--address">
+                <use xlink:href="img/sprite.svg#ico-placeholder"></use>
+              </svg>
+              <p class="footer__contacts-text">
+                123, Main Road, New City, My Country 123456
+              </p>
+            </div>
+            <div class="footer__contacts  footer__contacts-social">
+              <div class="footer__icons-container">
+                <a href="#">
+                  <svg class="footer__icon  footer__icon--fb">
+                    <use xlink:href="img/sprite.svg#ico-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="footer__icon  footer__icon--google">
+                    <use xlink:href="img/sprite.svg#ico-google-plus"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="footer__icon  footer__icon--vk">
+                    <use xlink:href="img/sprite.svg#ico-vk"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="footer__icon  footer__icon--tube">
+                    <use xlink:href="img/sprite.svg#ico-youtube"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="footer__icon  footer__icon--in">
+                    <use xlink:href="img/sprite.svg#ico-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__nav">
+            <h3 class="footer__title">Quick links</h3>
+            <ul class="footer__list">
+              <li class="footer__items">
+                <a href="#" class="footer__link">About us</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Blog</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Faq</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Insurance</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__services">
+            <h3 class="footer__title">Our services</h3>
+            <ul class="footer__list">
+              <li class="footer__items">
+                <a href="#" class="footer__link">Work injures</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Sport injures</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Cold laser Therapy</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Massage Therapy</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Physiotherapy</a>
+              </li>
+              <li class="footer__items">
+                <a href="#" class="footer__link">Chiropractic Therapy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__form">
+            <h3 class="footer__title">Enquiry form</h3>
+            <form action="mail.php" role="form">
+              <input class="footer__form-input" type="text" placeholder="Name">
+              <input class="footer__form-input" type="tel" placeholder="Phone">
+              <textarea class="footer__form-input" name="textarea" id="footer__textarea" cols="1" rows="4" placeholder="Message"></textarea>
+              <button class="footer__form-btn btn" type="submit">
+              Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">Copyright@</p>
+    </footer>
+    <!--Footer end-->
+    <link rel="preload" href="css/style.min.css" as="style">
+    <link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet" href="css/style.min.css">
+    </noscript>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/script.min.js" async></script>
+  </body>
+</html>
