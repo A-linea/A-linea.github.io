@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <title>Pirolli Design</title>
+  <!-- font preload -->
+  <link rel="preload" href="fonts/nunitoSans/NunitoSans-Regular.woff2" as="font" type="font/woff2"
+        crossorigin>
+    <!-- Critical css -->
+  <style type="text/css">@font-face{font-family:Montserrat;src:url(fonts/montserrat/Montserrat-SemiBold.woff2) format("woff2"),url(fonts/montserrat/Montserrat-SemiBold.woff) format("woff");font-weight:500;font-style:normal}@font-face{font-family:'Nunito Sans';src:url(fonts/nunitoSans/NunitoSans-Regular.woff2) format("woff2"),url(fonts/nunitoSans/NunitoSans-Regular.woff) format("woff");font-weight:400;font-style:normal}.about__skills-wrapper>*{-ms-flex-preferred-size:100%;flex-basis:100%}.about__skills{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;padding-left:15px;padding-right:15px}.about__skills--photo{display:none;vertical-align:top;font-size:0}.gallery__wrapper{display:none}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-box-sizing:border-box;box-sizing:border-box}body{width:100%;height:100%;background-color:#fff;color:#666;font-family:-apple-system,BlinkMacSystemFont,"Nunito Sans",Roboto,Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.3;padding:0}header,main,nav,section{display:block}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}strong{font-weight:bolder}img{border-style:none;height:auto;max-width:100%}svg:not(:root){overflow:hidden}button{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button{overflow:visible}button{text-transform:none}button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}li,ul{margin:0}li,ul{padding:0;list-style:none}.container{display:block;width:100%;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}button::-moz-focus-inner{padding:0;border:0}.owl-carousel{display:none;width:100%;position:relative;z-index:1}.hamburger{padding:15px;display:inline-block;font:inherit;color:inherit;text-transform:none;background-color:transparent;border:0;margin:0;overflow:visible}.hamburger-box{width:40px;height:24px;display:inline-block;position:relative}.hamburger-inner,.hamburger-inner::after,.hamburger-inner::before{width:40px;height:4px;background-color:#000;border-radius:4px;position:absolute;display:block}.hamburger-inner{top:50%;margin-top:-2px}.hamburger-inner::after,.hamburger-inner::before{content:""}.hamburger-inner::before{top:-10px}.hamburger-inner::after{bottom:-10px}.main-header{background-color:#c1cacc;background-repeat:no-repeat;background-size:cover;background-position:5% center;height:100vh}.btn::before,.main-header::before{content:"";position:absolute;background-color:#fff}.main-header::before{opacity:.3;height:100%;width:100%}.btn,.container,.main-header{position:relative}.btn{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;margin:0;padding:.3rem .7rem;white-space:nowrap;vertical-align:middle;text-align:center;letter-spacing:1px;font-size:.75rem;font-family:Montserrat,Roboto,sans-serif;line-height:1.3;text-decoration:none;font-weight:500;text-transform:uppercase;color:#fff;background-color:#10cbc5;background-image:none}.btn::before{left:17%;width:0;bottom:7px;height:2px}.main-nav{display:none;background-color:#10cbc5;position:fixed;top:0;bottom:0;width:256px;min-height:100vh;overflow-y:hidden;-webkit-overflow-scrolling:touch;z-index:0}.main-nav__list{margin-top:32%;list-style:none;padding:0;padding:.625rem 0}.main-nav__link{font-family:Montserrat,Ubuntu,"Droid Sans","Helvetica Neue",Arial,sans-serif;text-transform:uppercase;font-weight:500;display:block;padding:.625rem 0;text-decoration:none;color:#fff;text-align:center;border-bottom:1px solid rgba(255,255,255,.4)}.main-nav__toggle{display:inline-block;top:1.875rem;left:1.875rem}.icon{height:3.125rem;width:3.125rem;padding-top:20px;padding-left:1.25rem}.logo__dark{display:none}.hero{height:100%;padding:11.25rem 0}.hero__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px}.hero__inner>*{-ms-flex-preferred-size:100%;flex-basis:100%}.hero__container{padding:0 1.25rem;text-align:center}.hero__title{color:#1a1a1a;font-family:Montserrat,"Open Sans",sans-serif;font-size:1.625rem;font-weight:500}.hero__text{color:#333;font-size:.9375rem;margin-top:.625rem;line-height:1.5}.hero__btn{margin-top:1.25rem;padding:.9375rem 1.5625rem}.reviews__list{margin:0 auto;font-size:1rem;text-align:center;width:18.125rem}.reviews__name{font-size:.75rem;text-transform:uppercase;display:block;padding-top:.9375rem;margin-bottom:1.25rem}.reviews__item{letter-spacing:1px}@media (min-width:480px){.container{width:100%}.main-nav__list{list-style:none;font-size:.75rem;font-family:Montserrat,Ubuntu,"Droid Sans","Helvetica Neue",Arial,sans-serif;font-weight:500}.hero__container{-webkit-box-flex:0;-ms-flex:0 0 83.33333%;flex:0 0 83.33333%;max-width:83.33333%;padding-left:15px;padding-right:15px;margin-left:8.33333%}.hero{padding:9.375rem 0}.hero__title{font-size:1.5rem}.hero__text{font-size:1rem}.hero__btn{margin-top:5rem;padding:1.25rem 1.875rem}.reviews__list{width:27.5rem}}@media (min-width:768px){.container{width:100%}.main-header{margin-top:-4.375rem;position:relative}.main-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-preferred-size:60%;flex-basis:60%;width:auto;max-width:1170px;margin:0 auto;background-color:transparent;border:0;position:relative;overflow-y:auto;min-height:30px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;z-index:1}.main-nav__toggle{display:none}.main-nav__list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-preferred-size:80%;flex-basis:80%;-ms-flex-pack:distribute;justify-content:space-around;margin-top:0;padding-top:2.5rem}.main-nav__link{font-size:.75rem;text-transform:uppercase;font-weight:500;color:#1a1a1a;padding:0;padding-bottom:.3125rem;border-bottom:none;position:relative}.main-nav__link::before{content:"";position:absolute;left:0;width:0;bottom:0;background-color:#10cbc5;height:1px}.logo__dark{display:block}.logo__light{display:none}.icon{height:3.125rem;width:3.125rem;margin-top:.25rem;padding:0;padding-top:1.25rem}.hero__container{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%;padding-left:15px;padding-right:15px;margin-left:33.33333%}.hero{padding:9.375rem 0}.hero__container{padding-top:5rem;text-align:left}.hero__text{font-size:1.125rem;margin-top:2.1875rem}.hero__title{font-size:1.875rem}.hero__btn{margin-top:2.5rem;padding:1.1875rem 2.8125rem}.reviews__list{font-size:1.5rem;line-height:1.5;width:40rem}.reviews__name{padding-top:2.1875rem;margin-bottom:3.75rem}}@media (min-width:992px){.container{width:962px}.main-header{background-position:25% 40%}.main-nav{max-width:60.125rem}.main-nav__list{-ms-flex-preferred-size:70%;flex-basis:70%}.hero__container{margin-left:50%;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;padding-left:15px;padding-right:15px}}@media (min-width:1200px){.container{width:1170px}.main-header{background-position:50% 50%}.main-nav{max-width:73.125rem}.main-nav__list{-ms-flex-preferred-size:65%;flex-basis:65%}.reviews__list{width:52.5rem}}</style>
+  <script> !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);document.createElement("picture");</script>
+  <script src="js/picturefill.min.js" async></script>
+  <script src="js/lazysizes.min.js" async></script>
+</head>
+<body>
+<nav class="main-nav" role="navigation" aria-labelledby="mainmenulabel">
+  <a href="#home" class="logo">
+    <svg class="icon  icon--logo">
+      <svg class="logo__dark" id="logo-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 616"><path fill="none" stroke="#000" stroke-width="30" stroke-miterlimit="10" d="M375.6 549.6L62.4 69c-12.6-19.4 1.3-45 24.4-45h626.5c23.1 0 37 25.7 24.4 45L424.4 549.6c-11.5 17.6-37.3 17.6-48.8 0z"/><path fill="none" stroke="#000" stroke-width="30" stroke-miterlimit="10" d="M216.5 305.5L61.2 67.3C49.1 48.7 62.4 24 84.7 24H400L216.5 305.5zM583.5 305.5L400 24h315.3c22.2 0 35.6 24.7 23.5 43.3L583.5 305.5z"/></svg>
+      <use class="logo__light" xlink:href="img/sprite.svg#logo-light"></use>
+    </svg>
+  </a>
+  <ul class="main-nav__list">
+    <li class="main-nav__item">
+      <a href="#home" class="main-nav__link  main-nav__link--active">Home</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#about" class="main-nav__link">About</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#work" class="main-nav__link">work</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#process" class="main-nav__link">Process</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#services" class="main-nav__link">Services</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#reviews" class="main-nav__link">Testimonials</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#contacts" class="main-nav__link">Contacts</a>
+    </li>
+  </ul>
+</nav>
+<main class="page__main-content" role="main" id="home">
+  <!--Header start-->
+<header class="main-header" style="background-image: url('img/hero-bg.jpg'); ">
+  <div class="container">
+    <div class="main-header__topline">
+      <button class="main-nav__toggle  hamburger  hamburger--spin" type="button" aria-label="Menu" aria-controls="navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+   <!--Hero section start-->
+    <section class="hero">
+        <div class="hero__inner">
+          <div class="hero__container">
+            <strong class="hero__title">
+              We Design and Develop
+            </strong>
+            <p class="hero__text">We are a new design studio based in USA. We have over
+    20 years of combined experience, and know a thing or two
+    about designing websites and mobile apps.</p>
+            <a href="" class="hero__btn  btn">Contact us</a>
+          </div>
+        </div>
+    </section>
+    <!--Hero section end-->
+  </div>
+</header>
+  <!--Header end-->
+  <!--Content start-->
+  <!--About start-->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about__inner">
+      <h2 class="about__title">
+        About Us
+      </h2>
+      <p class="about__text">When you have a great story about how your product or service was built to change lives, share it. The "About Us" page is a great place for it to live, too. Good stories humanize your brand, providing context and meaning for your product. What’s more, good stories are sticky which means people are more likely to connect with them and pass them on.
+      </p>
+      <div class="about__sign">
+        <img src="img/signature.png" alt="signature">
+      </div>
+    </div>
+      <div class="about__skills-wrapper  appear">
+        <div class="about__skills  about__skills--progressbar">
+          <h3 class="about__inner-title">Proffesional Skills</h3>
+          <div class="about__progressbar-wrapper">
+            <p class="about__progressbar">ui/ux design</p>
+            <div class="about__progressbar--ui" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+          <div class="about__progressbar-wrapper">
+            <p class="about__progressbar">web development</p>
+            <div class="about__progressbar--web" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+          <div class="about__progressbar-wrapper">
+            <p class="about__progressbar">marketing</p>
+            <div class="about__progressbar--marketing" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+        <div class="about__skills  about__skills--photo">
+          <picture>
+            <source data-srcset="img/webp/skills.webp" type="image/webp">
+            <source data-srcset="img/webp/skills.jpg" type="image/jpg">
+            <img data-src="img/webp/skills.jpg" alt="pencil on table" class="lazyload">
+          </picture>
+        </div>
+      </div>
+  </div>
+</section>
+<!--About end-->
+<!--Achievements start-->
+<section id="work" class="achievements">
+  <div class="container">
+    <ul class="achievements__data-wrapper">
+      <li class="achievements__data  achievements__data--projects">
+        <div class="achievements__icons-wrap">
+          <svg class="achievements__icon  achievements__icon--portfolio" id="icon--portfolio" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="none" stroke="#fff" stroke-width="1.1" stroke-miterlimit="10" d="M3.8 7.8h24.6V27H3.8z"/><path fill="none" stroke="#fff" stroke-width="1.1" stroke-miterlimit="10" d="M12.8 15.2h6.4v4.2h-6.4zM12.7 5.1h6.6v2.7h-6.6zM3.8 17.3h9M19.2 17.4l9.2-.1"/></svg>
+        </div>
+        <div class="achievements__inner  appear">
+          <span class="achievements__count" id="projects">548</span>
+          <p class="achievements__text">Projects completed</p>
+        </div>
+      </li>
+      <li class="achievements__data  achievements__data--hours">
+        <div class="achievements__icons-wrap">
+          <svg class="achievements__icon  achievements__icon--alarm" id="icon--alarm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle fill="none" stroke="#fff" stroke-width="1.21" stroke-miterlimit="10" cx="16.1" cy="17.6" r="11.2"/><path fill="none" stroke="#fff" stroke-miterlimit="10" d="M16 9.1V18M16.5 18.2H9.6"/></svg>
+        </div>
+        <div class="achievements__inner">
+          <span class="achievements__count" id="hours">1465</span>
+          <p class="achievements__text">Working-hours</p>
+        </div>
+      </li>
+      <li class="achievements__data  achievements__data--feedback">
+        <div class="achievements__icons-wrap">
+          <svg class="achievements__icon  achievements__icon--star" id="icon--star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="none" stroke="#fff" stroke-width=".956" stroke-miterlimit="10" d="M16 4.1l3 9.1h9.8L21 18.8l2.9 9.3-7.9-5.6-7.8 5.7 2.9-9.2-7.9-5.7 9.9-.1z"/></svg>
+        </div>
+        <div class="achievements__inner">
+          <span class="achievements__count" id="feedback">612</span>
+          <p class="achievements__text">Positive-feedbacks</p>
+        </div>
+      </li>
+      <li class="achievements__data  achievements__data--clients">
+        <div class="achievements__icons-wrap">
+          <svg class="achievements__icon  achievements__icon--like" id="icon--like" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.8 24"><path fill="none" stroke="#fff" stroke-miterlimit="10" d="M25 12.5L14.1 23.3 3.2 12.5c-2-2.5-2.4-5.8-1-8.3C3.6 1.7 6.1 1 6.5.9c2.7-.7 5.7.5 7.7 2.9C16 1.4 19 .3 21.8.9c.3.1 2.9.8 4.2 3.2 1.4 2.5 1.1 5.9-1 8.4z"/>
+          </svg>
+        </div>
+        <div class="achievements__inner">
+          <span class="achievements__count" id="clients">735</span>
+          <p class="achievements__text">Happy-clients</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--Achievements end-->
+<!--Gallery start-->
+<section class="gallery">
+  <div class="gallery__carousel owl-carousel">
+    <div class="gallery__card">
+      <picture>
+        <source data-srcset="img/webp/card.webp" type="image/webp">
+        <source data-srcset="img/webp/card.jpg" type="image/jpg">
+        <img data-src="img/webp/card.jpg" alt="card" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card">
+      <picture>
+        <source data-srcset="img/webp/phone.webp" type="image/webp">
+        <source data-srcset="img/webp/phone.jpg" type="image/jpg">
+        <img data-src="img/webp/phone.jpg" alt="pencil on table" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card ">
+      <picture>
+        <source data-srcset="img/webp/bag-2.webp" type="image/webp">
+        <source data-srcset="img/webp/bag-2.jpg" type="image/jpg">
+        <img data-src="img/webp/bag-2.jpg" alt="bag" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card ">
+      <picture>
+        <source data-srcset="img/webp/book.webp" type="image/webp">
+        <source data-srcset="img/webp/book.jpg" type="image/jpg">
+        <img data-src="img/webp/book.jpg" alt="book" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card ">
+      <picture>
+        <source data-srcset="img/webp/glass.webp" type="image/webp">
+        <source data-srcset="img/webp/glass.jpg" type="image/jpg">
+        <img data-src="img/webp/glass.jpg" alt="glass" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card ">
+      <picture>
+        <source data-srcset="img/webp/box.webp" type="image/webp">
+        <source data-srcset="img/webp/box.jpg" type="image/jpg">
+        <img data-src="img/webp/box.jpg" alt="pencil on table" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card">
+      <picture>
+        <source data-srcset="img/webp/honey.webp" type="image/webp">
+        <source data-srcset="img/webp/honey.jpg" type="image/jpg">
+        <img data-src="img/webp/honey.jpg" alt="box" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card">
+      <picture>
+        <source data-srcset="img/webp/shampoo.webp" type="image/webp">
+        <source data-srcset="img/webp/shampoo.jpg" type="image/jpg">
+        <img data-src="img/webp/shampoo.jpg" alt="pencil on table" class="lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card--hidden">
+      <picture>
+        <source data-srcset="img/webp/b-card.webp" type="image/webp">
+        <source data-srcset="img/webp/b-card.jpg" type="image/jpg">
+        <img data-src="img/webp/b-card.jpg" alt="business card" class="gallery__hidden lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card--hidden">
+      <picture>
+        <source data-srcset="img/webp/bottle.webp" type="image/webp">
+        <source data-srcset="img/webp/bottle.jpg" type="image/jpg">
+        <img data-src="img/webp/bottle.jpg" alt="bottle" class="gallery__hidden  lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card--hidden">
+      <picture>
+        <source data-srcset="img/webp/label.webp" type="image/webp">
+        <source data-srcset="img/webp/label.jpg" type="image/jpg">
+        <img data-src="img/webp/label.jpg" alt="label" class="gallery__hidden  lazyload">
+      </picture>
+    </div>
+    <div class="gallery__card--hidden">
+      <picture>
+        <source data-srcset="img/webp/box.webp" type="image/webp">
+        <source data-srcset="img/webp/box.jpg" type="image/jpg">
+        <img data-src="img/webp/box.jpg" alt="box" class="gallery__hidden  lazyload">
+      </picture>
+    </div>
+  </div>
+  <button class="gallery__wrapper btn"> LOAD MORE</button>
+</section>
+<!--Gallery end-->
+<!--Media start-->
+<section class="media" id="process">
+  <div class="container">
+    <div class="media__inner">
+      <h2 class="media__title">Our Work Process</h2>
+      <p class="media__text">Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+    </div>
+    <div class="media__video-wrapper">
+      <iframe  title="video" class="media__video" width="768" height="435" src="https://www.youtube.com/embed/AQL9Z-IsJw0?rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+<!--media end-->
+<!--Services start-->
+  <section class="services " id="services">
+    <div class="container">
+      <div class="services__inner  owl-carousel owl-default">
+        <div class="services__card  services__card--diamond">
+          <div class="services__icon-container">
+          <svg class="services__icon  services__icon--diamond">
+            <use xlink:href="img/sprite.svg#diamond"></use>
+          </svg>
+          </div>
+          <h2 class="services__title  services__title--treatment">UI/UX design</h2>
+          <p class="services__text">Ullamcorper at in  vivamus porttitor eu vel. Ante primis.</p>
+        </div>
+        <div class="services__card  services__card--arc">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--arc">
+              <use xlink:href="img/sprite.svg#arc"></use>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--help">Web development</h2>
+          <p class="services__text">Lectus. Aliquam  convallis. Congue quisque est eleifend.</p>
+        </div>
+        <div class="services__card  services__card--phone">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--phone">
+              <use xlink:href="img/sprite.svg#phone"></use>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--staff">App/Mobile</h2>
+          <p class="services__text">Rhoncus natoque. Accumsan ligula et commodo orci</p>
+        </div>
+        <div class="services__card  services__card--joy">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--joy">
+              <use xlink:href="img/sprite.svg#joy"></use>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--doctors">Game Design</h2>
+          <p class="services__text">Nullam nibh, aenean lectus sem lectus maecenas nisi.</p>
+        </div>
+        <div class="services__card  services__card--plane">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--plane">
+              <use xlink:href="img/sprite.svg#plane"></use>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--doctors">Seo/Marketing</h2>
+          <p class="services__text">Ultricies pretium fusce, nulla hac euismod.</p>
+        </div>
+        <div class="services__card  services__card--star">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19.4 12.8L16 2.4l-3.4 10.4h-11l8.9 6.4-3.4 10.4 8.9-6.4 8.9 6.4-3.4-10.4 8.9-6.4h-11zm1.1 6.7l2.4 7.3-6.9-5-6.9 5 2.6-8-.6-.5-6.2-4.5h8.5l2.6-8 2.6 8h8.5l-6.9 4.9.3.8z"/>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--doctors">Photography</h2>
+          <p class="services__text">Magnis platea id. Natoque nulla lacus. Nam nullam.</p>
+        </div>
+        <div class="services__card  services__card--wand">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--wand">
+              <use xlink:href="img/sprite.svg#magic-wand"></use>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--doctors">Graphic design</h2>
+          <p class="services__text">Est ad ut taciti dapibus nibh ut, id tempor phasellus.</p>
+        </div>
+        <div class="services__card  services__card--bucket">
+          <div class="services__icon-container">
+            <svg class="services__icon  services__icon--bucket">
+              <use xlink:href="img/sprite.svg#paint-bucket"></use>
+            </svg>
+          </div>
+          <h2 class="services__title  services__title--doctors">Illustrations</h2>
+          <p class="services__text">Euismod odio nullam. Cursus eleifend nulla praesent turpis.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Services end-->
+<!--Reviews start-->
+<section class="reviews" id="reviews">
+  <ul class="reviews__list owl-carousel owl-theme">
+    <li class="reviews__item">“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”
+      <span class="reviews__name">Michael Hopkins</span>
+    </li>
+    <li class="reviews__item">“Have been very impressed with the young team's responsiveness and willingness to provide quick and efficient service. I hope that as they grow, they can maintain the knowledgeable and personal...”
+      <span class="reviews__name">Kenneth Jones</span>
+    </li>
+    <li class="reviews__item">“I think they’ve done a very good job in terms of managing their time and getting things done.”
+      <span class="reviews__name">Stanley Trump</span>
+    </li>
+  </ul>
+</section>
+<!--Reviews end-->
+  <section class="clients">
+    <div class="container">
+      <div class="clients__inner owl-carousel owl-theme">
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-1.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-1.png" type="image/png">
+            <img data-src="img/webp/logo-1.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-2.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-2.png" type="image/png">
+            <img data-src="img/webp/logo-2.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-3.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-3-dark.png" type="image/png">
+            <img data-src="img/webp/logo-3.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-4.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-4.png" type="image/png">
+            <img data-src="img/webp/logo-4.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-5.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-5.png" type="image/png">
+            <img data-src="img/webp/logo-5.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-6.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-6.png" type="image/png">
+            <img data-src="img/webp/logo-6.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-7.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-7.png" type="image/png">
+            <img data-src="img/webp/logo-7.png" alt="label" class="clients__logo  lazyload">
+          </picture>
+        </div>
+        <div class="clients__card">
+          <picture>
+            <source data-srcset="img/webp/logo-8.webp" type="image/webp">
+            <source data-srcset="img/webp/logo-8.png" type="image/png">
+            <img data-src="img/webp/logo-8.png" alt="label" class="clients__logo lazyload">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Form start-->
+<section class="form" id="contacts">
+  <div class="container">
+    <div class="form__inner">
+      <div class="form__wrapper">
+        <h2 class="form__title">Need a Project?</h2>
+        <p class="form__text">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+        <form>
+          <input type="text" class="form__input  form__input--name" name="name" placeholder="Your name" required>
+          <input type="text" class="form__input  form__input--text" name="email" placeholder="Your email" required>
+          <input type="text" class="form__input  form__input--title" name="title" placeholder="Title" required>
+          <textarea class="form__input  form__input--textarea" name="textarea" placeholder="Textarea" cols="30" rows="10"></textarea>
+          <button class="btn  form__form-btn">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<!--Form end-->
+<!--Footer start-->
+<button class="btn__top" title="up">
+</button>
+<footer class="main-footer">
+  <p class="main-footer__copyright">Copyright@</p>
+</footer>
+<!--Footer end-->
+<link rel="preload" href="css/style.min.css" as="style">
+<link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/style.min.css"></noscript>
+<link rel="stylesheet" href="css/style.min.css">
+<script src="js/progress_bar.js" async></script>
+<script src="js/script.min.js" async></script>
+</body>
+</html>
